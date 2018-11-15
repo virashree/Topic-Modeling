@@ -1,0 +1,322 @@
+[(0,
+  0.215*"juan" + 0.127*"retweet" + 0.123*"katrina" + 0.105*"toll" + 
+  0.057*"animal" + 0.056*"jone" + 0.047*"hurricane" + 0.037*"tip" + 
+  0.032*"proceed" + 0.027*"outer"),
+ (1,
+  0.229*"tonight" + 0.185*"landfall" + 0.116*"central" + 0.103*"tomorrow" + 
+  0.041*"open" + 0.040*"communication" + 0.029*"economic" + 
+  0.028*"individual" + 0.021*"evacuee" + 0.018*"martin"),
+ (2,
+  0.220*"entire" + 0.134*"long" + 0.068*"trolling" + 0.061*"nursing" + 
+  0.052*"proud" + 0.040*"mm" + 0.035*"rainfall" + 0.033*"total" + 
+  0.032*"daily" + 0.029*"scary"),
+ (3,
+  0.177*"safe" + 0.083*"god" + 0.069*"police" + 0.058*"football" + 
+  0.054*"guy" + 0.051*"charity" + 0.043*"poor" + 0.039*"slow" + 
+  0.034*"hurricane" + 0.030*"hell"),
+ (4,
+  0.404*"state" + 0.190*"official" + 0.112*"local" + 0.058*"one" + 
+  0.041*"neighbor" + 0.023*"californian" + 0.017*"advice" + 0.012*"cartoon" + 
+  0.012*"fresh" + 0.011*"box"),
+ (5,
+  0.228*"dialysis" + 0.124*"situation" + 0.115*"dark" + 0.055*"silence" + 
+  0.043*"rot" + 0.042*"acutely_distressing" + 0.039*"desimated" + 
+  0.033*"term" + 0.025*"neighborhood" + 0.025*"giveaway"),
+ (6,
+  0.351*"storm" + 0.210*"building" + 0.089*"tropical" + 0.052*"ship" + 
+  0.049*"atlantic" + 0.044*"hurricane" + 0.029*"season" + 0.027*"system" + 
+  0.025*"depression" + 0.014*"nhc"),
+ (7,
+  0.240*"sec" + 0.068*"foreign" + 0.059*"earth" + 0.055*"second" + 
+  0.051*"oct" + 0.044*"amber" + 0.037*"datum" + 0.036*"non" + 
+  0.033*"hurricane" + 0.028*"analysis"),
+ (8,
+  0.125*"school" + 0.114*"thing" + 0.068*"admin" + 0.065*"rescuer" + 
+  0.064*"korea" + 0.058*"crew" + 0.055*"tuesday" + 0.053*"squirrel" + 
+  0.038*"anyone" + 0.032*"package"),
+ (9,
+  0.316*"citizen" + 0.312*"usvi" + 0.065*"plead" + 0.054*"community" + 
+  0.033*"twitter" + 0.020*"benefit" + 0.015*"disease_rampant" + 
+  0.015*"resilience" + 0.014*"source" + 0.010*"concern"),
+ (10,
+  0.142*"united" + 0.134*"year" + 0.103*"navy" + 0.100*"america" + 
+  0.078*"job" + 0.048*"old" + 0.044*"enough" + 0.033*"talk" + 0.032*"link" + 
+  0.032*"baby"),
+ (11,
+  0.379*"everyone" + 0.335*"tweet" + 0.072*"similar" + 0.022*"fight" + 
+  0.021*"hurricane" + 0.019*"visitor" + 0.016*"gofundme" + 0.012*"takeaknee" 
+  + 0.011*"corruption" + 0.010*"kentucky"),
+ (12,
+  0.131*"caribbean" + 0.131*"government" + 0.107*"cost" + 0.096*"deadly" + 
+  0.057*"devastating" + 0.043*"county" + 0.027*"cnn" + 0.021*"nuclear" + 
+  0.019*"control" + 0.018*"senate"),
+ (13,
+  0.127*"last" + 0.104*"key" + 0.080*"message" + 0.070*"advisory" + 
+  0.068*"night" + 0.064*"huge" + 0.063*"heat" + 0.057*"pressure" + 
+  0.051*"low" + 0.036*"drone"),
+ (14,
+  0.154*"potus" + 0.077*"weather" + 0.073*"service" + 0.073*"sick" + 
+  0.060*"dire" + 0.057*"lawmaker" + 0.051*"romney" + 0.035*"election" + 
+  0.032*"page" + 0.027*"statement"),
+ (15,
+  0.229*"ocean" + 0.205*"insulin" + 0.037*"southern" + 0.033*"brown" + 
+  0.032*"travel" + 0.029*"bay" + 0.025*"scott" + 0.024*"blast" + 
+  0.021*"management" + 0.018*"evacuate"),
+ (16,
+  0.485*"victim" + 0.161*"survivor" + 0.148*"hurricane" + 0.030*"door" + 
+  0.021*"less" + 0.021*"floridian" + 0.015*"capture" + 0.014*"fundraiser" + 
+  0.012*"expert" + 0.009*"salma_hayek"),
+ (17,
+  0.381*"video" + 0.074*"dollar" + 0.051*"imagery" + 0.051*"site" + 
+  0.037*"apocalyptic" + 0.036*"intense" + 0.029*"star" + 0.027*"calm" + 
+  0.020*"haiti" + 0.018*"afternoon"),
+ (18,
+  0.197*"terrible" + 0.153*"least" + 0.087*"moment" + 0.076*"recent" + 
+  0.059*"fact" + 0.048*"critical" + 0.030*"dozen" + 0.029*"aircraft" + 
+  0.022*"past" + 0.020*"reason"),
+ (19,
+  0.317*"power" + 0.235*"disaster" + 0.110*"response" + 0.098*"mayor" + 
+  0.044*"word" + 0.031*"natural" + 0.023*"available" + 0.018*"republican" + 
+  0.009*"rest" + 0.008*"notice"),
+ (20,
+  0.482*"relief" + 0.087*"great" + 0.063*"red" + 0.061*"hurricane" + 
+  0.058*"donation" + 0.058*"fund" + 0.045*"cross" + 0.031*"volunteer" + 
+  0.027*"worker" + 0.020*"urgent"),
+ (21,
+  0.202*"national" + 0.113*"center" + 0.097*"shipping" + 0.078*"washington" + 
+  0.064*"thread" + 0.061*"jr" + 0.045*"hurricane" + 0.037*"wife" + 
+  0.022*"destructive" + 0.018*"general"),
+ (22,
+  0.576*"american" + 0.106*"million" + 0.051*"golf" + 0.026*"ppl" + 
+  0.025*"black" + 0.022*"pet" + 0.021*"line" + 0.021*"course" + 0.016*"cuban" 
+  + 0.013*"hurricane"),
+ (23,
+  0.166*"campaign" + 0.087*"action" + 0.062*"shit" + 0.054*"rebuild" + 
+  0.031*"whose" + 0.031*"store" + 0.030*"percent" + 0.027*"marine" + 
+  0.020*"crash" + 0.018*"republic"),
+ (24,
+  0.627*"maria" + 0.244*"hurricane" + 0.016*"strength" + 0.014*"forecast" + 
+  0.013*"move" + 0.009*"track" + 0.009*"wednesday" + 0.006*"coastal" + 
+  0.006*"esperanza" + 0.006*"mariapr"),
+ (25,
+  0.294*"many" + 0.107*"visit" + 0.077*"desperate" + 0.046*"chief" + 
+  0.045*"single" + 0.043*"beach" + 0.040*"signal" + 0.026*"beautiful" + 
+  0.023*"turn" + 0.020*"outrageous"),
+ (26,
+  0.103*"infrastructure" + 0.090*"danger" + 0.073*"attack" + 0.065*"cruz" + 
+  0.061*"wall" + 0.058*"partner" + 0.053*"student" + 0.048*"athlete" + 
+  0.043*"iowa" + 0.040*"carmen_yulin"),
+ (27,
+  0.109*"close" + 0.077*"assessment" + 0.070*"border" + 0.065*"appeal" + 
+  0.049*"ast" + 0.030*"petition" + 0.029*"abandon" + 0.027*"whatev" + 
+  0.024*"ame" + 0.024*"oxfam"),
+ (28,
+  0.341*"virgin" + 0.115*"emergency" + 0.053*"shelter" + 0.052*"assistance" + 
+  0.051*"free" + 0.051*"number" + 0.042*"record" + 0.035*"japan" + 
+  0.028*"town" + 0.017*"app"),
+ (29,
+  0.181*"heart" + 0.123*"donate" + 0.073*"picture" + 0.062*"bill" + 
+  0.032*"gas" + 0.026*"drinkable" + 0.026*"energy" + 0.025*"survive" + 
+  0.019*"army" + 0.019*"industry"),
+ (30,
+  0.446*"puerto" + 0.408*"rico" + 0.052*"hurricane" + 0.024*"hurricanemaria" 
+  + 0.013*"rican" + 0.008*"cat" + 0.007*"major" + 0.006*"something" + 
+  0.004*"detail" + 0.004*"watch"),
+ (31,
+  0.272*"devastation" + 0.121*"san" + 0.114*"catastrophic" + 0.112*"flooding" 
+  + 0.105*"nothing" + 0.056*"kind" + 0.044*"threat" + 0.039*"saturday" + 
+  0.027*"widespread" + 0.012*"relative"),
+ (32,
+  0.099*"remind" + 0.082*"deep" + 0.076*"elderly" + 0.061*"health" + 
+  0.058*"hundred" + 0.043*"clear" + 0.038*"sign" + 0.037*"contact" + 
+  0.033*"pregnant" + 0.033*"debris"),
+ (33,
+  0.216*"rescue" + 0.124*"recovery" + 0.123*"team" + 0.102*"search" + 
+  0.055*"rubble" + 0.055*"story" + 0.024*"business" + 0.020*"tremendous" + 
+  0.015*"assist" + 0.014*"article"),
+ (34,
+  0.462*"irma" + 0.298*"hurricane" + 0.052*"bad" + 0.032*"hour" + 
+  0.018*"public" + 0.016*"taxpayer" + 0.015*"top" + 0.013*"reporting" + 
+  0.013*"administration" + 0.012*"case"),
+ (35,
+  0.374*"florida" + 0.124*"congress" + 0.044*"footage" + 0.043*"trouble" + 
+  0.038*"show" + 0.034*"gop" + 0.034*"member" + 0.029*"respect" + 
+  0.023*"senator" + 0.021*"kid"),
+ (36,
+  0.287*"new" + 0.084*"everything" + 0.045*"recover" + 0.044*"km" + 
+  0.030*"half" + 0.027*"york" + 0.021*"donald" + 0.020*"hurricane" + 
+  0.019*"offering" + 0.019*"international"),
+ (37,
+  0.201*"comfort" + 0.156*"good" + 0.118*"world" + 0.058*"population" + 
+  0.048*"history" + 0.030*"croix" + 0.024*"blog" + 0.024*"patient" + 
+  0.023*"political" + 0.018*"traffic"),
+ (38,
+  0.449*"city" + 0.084*"generator" + 0.073*"federal" + 0.048*"medium" + 
+  0.040*"resource" + 0.035*"possible" + 0.027*"call" + 0.023*"hand" + 
+  0.018*"dam" + 0.016*"grid"),
+ (39,
+  0.275*"life" + 0.128*"lot" + 0.070*"severe" + 0.063*"fire" + 
+  0.050*"dangerous" + 0.031*"inadequate" + 0.030*"silent" + 0.027*"read" + 
+  0.027*"invisible" + 0.026*"region"),
+ (40,
+  0.327*"home" + 0.189*"late" + 0.121*"update" + 0.106*"current" + 
+  0.063*"live" + 0.054*"coverage" + 0.020*"insurance" + 0.012*"waiver" + 
+  0.010*"sight" + 0.009*"pain"),
+ (41,
+  0.165*"morning" + 0.114*"concert" + 0.073*"early" + 0.049*"waive" + 
+  0.039*"friday" + 0.037*"secretary" + 0.036*"troop" + 0.031*"briefing" + 
+  0.029*"shark" + 0.026*"london"),
+ (42,
+  0.149*"way" + 0.135*"alert" + 0.119*"governor" + 0.117*"supply" + 
+  0.109*"fuel" + 0.073*"clean" + 0.040*"gov" + 0.020*"operation" + 
+  0.019*"share" + 0.013*"vote"),
+ (43,
+  0.134*"big" + 0.094*"little" + 0.068*"hurricane" + 0.064*"large" + 
+  0.057*"lack" + 0.036*"girl" + 0.036*"monsta" + 0.028*"sea" + 0.023*"tampa" 
+  + 0.023*"tree"),
+ (44,
+  0.224*"right" + 0.156*"military" + 0.096*"high" + 0.067*"ground" + 
+  0.060*"condition" + 0.043*"road" + 0.042*"anthem" + 0.029*"order" + 
+  0.026*"obama" + 0.017*"comms"),
+ (45,
+  0.311*"harvey" + 0.088*"hurricane" + 0.087*"attention" + 
+  0.087*"electricity" + 0.040*"folk" + 0.036*"mexican" + 0.033*"sad" + 
+  0.031*"usa" + 0.022*"light" + 0.021*"scene"),
+ (46,
+  0.221*"wind" + 0.186*"hurricaneirma" + 0.118*"mph" + 0.107*"category" + 
+  0.084*"hard" + 0.055*"hurricane" + 0.024*"gust" + 0.019*"cuba" + 
+  0.018*"sustained" + 0.016*"max"),
+ (47,
+  0.188*"need" + 0.073*"post" + 0.048*"issue" + 0.039*"hurricane" + 
+  0.039*"place" + 0.038*"organization" + 0.038*"pray" + 0.032*"staff" + 
+  0.032*"affected" + 0.030*"disrespectful"),
+ (48,
+  0.288*"houston" + 0.234*"area" + 0.085*"september" + 0.057*"use" + 
+  0.026*"repeal" + 0.024*"georgia" + 0.023*"holy" + 0.019*"economy" + 
+  0.018*"underwater" + 0.016*"future"),
+ (49,
+  0.169*"force" + 0.124*"serious" + 0.088*"mile" + 0.060*"orlando" + 
+  0.050*"click" + 0.038*"barbuda" + 0.031*"task" + 0.030*"shirt" + 
+  0.026*"win" + 0.026*"appropriation"),
+ (50,
+  0.743*"water" + 0.068*"resident" + 0.016*"port" + 0.015*"drive" + 
+  0.013*"someone" + 0.010*"park" + 0.009*"approach" + 0.009*"pleading" + 
+  0.008*"neglect" + 0.008*"ten"),
+ (51,
+  0.121*"man" + 0.062*"brink" + 0.059*"dear" + 0.057*"suffering" + 
+  0.047*"event" + 0.044*"office" + 0.042*"senior" + 0.038*"step" + 
+  0.032*"law" + 0.030*"hit"),
+ (52,
+  0.270*"effort" + 0.212*"crisis" + 0.164*"humanitarian" + 0.080*"support" + 
+  0.048*"territory" + 0.037*"air" + 0.030*"thank" + 0.030*"work" + 
+  0.009*"astonishing" + 0.007*"truck"),
+ (53,
+  0.268*"photo" + 0.240*"strong" + 0.083*"flint" + 0.066*"airport" + 
+  0.055*"unbelievable" + 0.037*"historic" + 0.024*"breathing" + 
+  0.024*"hurricane" + 0.022*"disconnected" + 0.020*"beefing"),
+ (54,
+  0.304*"dog" + 0.197*"death" + 0.081*"aftermath" + 0.069*"real" + 
+  0.033*"refuse" + 0.031*"owner" + 0.025*"clinton" + 0.020*"duty" + 
+  0.020*"profit" + 0.019*"politic"),
+ (55,
+  0.376*"puertorico" + 0.107*"dominica" + 0.097*"miami" + 0.055*"war" + 
+  0.045*"important" + 0.034*"information" + 0.033*"sanjuan" + 0.032*"plan" + 
+  0.029*"safety" + 0.020*"evacuation"),
+ (56,
+  0.219*"peril" + 0.143*"coast" + 0.133*"month" + 0.097*"insult" + 
+  0.048*"thousand" + 0.040*"guard" + 0.038*"gulf" + 0.036*"bankruptcy" + 
+  0.026*"surge" + 0.021*"humanity"),
+ (57,
+  0.253*"due" + 0.093*"street" + 0.085*"child" + 0.077*"hospital" + 
+  0.065*"house" + 0.065*"care" + 0.058*"quake" + 0.047*"jose" + 0.043*"flag" 
+  + 0.041*"white"),
+ (58,
+  0.745*"help" + 0.057*"agriculture" + 0.048*"ready" + 0.042*"st" + 
+  0.026*"immediate" + 0.008*"rich" + 0.005*"penny" + 0.005*"forest" + 
+  0.004*"earthquak" + 0.004*"rubio"),
+ (59,
+  0.417*"fellow" + 0.154*"time" + 0.068*"former" + 0.056*"first" + 
+  0.044*"medical" + 0.040*"infant" + 0.033*"potable" + 0.020*"officer" + 
+  0.017*"face" + 0.015*"responder"),
+ (60,
+  0.560*"island" + 0.156*"texas" + 0.101*"debt" + 0.032*"controversy" + 
+  0.029*"south" + 0.015*"devastated" + 0.010*"billion" + 0.007*"floodwater" + 
+  0.007*"fiji" + 0.006*"university"),
+ (61,
+  0.405*"news" + 0.100*"dead" + 0.083*"woman" + 0.050*"reporter" + 
+  0.049*"fake" + 0.043*"wrong" + 0.028*"fox" + 0.018*"lawyer" + 
+  0.015*"foxnew" + 0.013*"disease"),
+ (62,
+  0.185*"pm" + 0.138*"yesterday" + 0.092*"middle" + 0.092*"frida" + 
+  0.053*"level" + 0.043*"special" + 0.039*"racist" + 0.035*"mission" + 
+  0.033*"hurricane" + 0.027*"cdt"),
+ (63,
+  0.429*"food" + 0.110*"rain" + 0.057*"tax" + 0.047*"impact" + 0.038*"bank" + 
+  0.030*"mainland" + 0.028*"heavy" + 0.027*"loss" + 0.027*"race" + 
+  0.019*"rise"),
+ (64,
+  0.616*"earthquake" + 0.080*"day" + 0.052*"week" + 0.049*"magnitude" + 
+  0.015*"broken" + 0.014*"break" + 0.013*"next" + 0.009*"several" + 
+  0.009*"tragedy" + 0.007*"oaxaca"),
+ (65,
+  0.433*"damage" + 0.096*"much" + 0.080*"plane" + 0.078*"hope" + 
+  0.036*"hurricane" + 0.033*"sale" + 0.027*"foundation" + 0.018*"drop" + 
+  0.014*"difference" + 0.011*"muslim"),
+ (66,
+  0.387*"aid" + 0.092*"north" + 0.058*"request" + 0.052*"sister" + 
+  0.046*"brother" + 0.039*"west" + 0.038*"east" + 0.036*"restriction" + 
+  0.031*"carolina" + 0.018*"geraldo"),
+ (67,
+  0.320*"country" + 0.150*"full" + 0.140*"list" + 0.081*"other" + 
+  0.035*"downtown" + 0.026*"russian" + 0.024*"unknown" + 0.017*"shooting" + 
+  0.016*"irmarecovery" + 0.016*"reaction"),
+ (68,
+  0.403*"trump" + 0.299*"president" + 0.089*"usns" + 0.075*"fema" + 
+  0.025*"leader" + 0.015*"pre" + 0.012*"cut" + 0.011*"security" + 0.008*"bc" 
+  + 0.008*"fraud"),
+ (69,
+  0.201*"massive" + 0.120*"powerful" + 0.100*"destruction" + 0.054*"piece" + 
+  0.051*"hurricane" + 0.050*"xico" + 0.036*"circle" + 0.036*"nighttime" + 
+  0.029*"strike" + 0.025*"form"),
+ (70,
+  0.217*"warning" + 0.139*"pos" + 0.061*"solidarity" + 0.052*"lovearmymexico" 
+  + 0.050*"gift" + 0.037*"plea" + 0.032*"mr" + 0.031*"capital" + 0.027*"meal" 
+  + 0.023*"network"),
+ (71,
+  0.186*"image" + 0.181*"satellite" + 0.149*"dod" + 0.063*"small" + 
+  0.047*"monster" + 0.040*"private" + 0.032*"min" + 0.024*"utc" + 
+  0.022*"true" + 0.021*"nasa"),
+ (72,
+  0.255*"nfl" + 0.116*"eye" + 0.058*"flight" + 0.041*"radar" + 
+  0.040*"extreme" + 0.031*"minute" + 0.024*"match" + 0.021*"eyewall" + 
+  0.020*"funding" + 0.019*"run"),
+ (73,
+  0.375*"hurricaneharvey" + 0.134*"mexicocity" + 0.072*"heartbreaking" + 
+  0.061*"mexicoquake" + 0.046*"newsdesk" + 0.040*"unsurprising" + 
+  0.018*"arrest" + 0.014*"beloved" + 0.014*"hurricanejose" + 0.011*"freedom"),
+ (74,
+  0.739*"mexico" + 0.058*"part" + 0.046*"money" + 0.023*"climate" + 
+  0.020*"change" + 0.013*"catastrophe" + 0.013*"amazing" + 0.011*"risk" + 
+  0.010*"healthcare" + 0.010*"view"),
+ (75,
+  0.708*"amp" + 0.075*"friend" + 0.069*"medicine" + 0.032*"info" + 
+  0.014*"act" + 0.011*"check" + 0.009*"colleague" + 0.008*"british" + 
+  0.008*"sure" + 0.007*"facebook"),
+ (76,
+  0.432*"today" + 0.217*"flood" + 0.053*"potential" + 0.033*"foot" + 
+  0.025*"additional" + 0.017*"crazy" + 0.016*"flash" + 0.012*"amount" + 
+  0.011*"mid" + 0.011*"back"),
+ (77,
+  0.933*"people" + 0.019*"effect" + 0.017*"unprecedented" + 
+  0.003*"deployment" + 0.003*"broward" + 0.003*"liter" + 0.002*"los_angele" + 
+  0.002*"author" + 0.001*"commission" + 0.001*"unable"),
+ (78,
+  0.172*"report" + 0.164*"disposal" + 0.090*"player" + 0.082*"river" + 
+  0.046*"car" + 0.031*"flooded" + 0.028*"wi" + 0.022*"marina" + 
+  0.013*"disbelief" + 0.013*"narrative"),
+ (79,
+  0.199*"prayer" + 0.180*"family" + 0.160*"thought" + 0.083*"weekend" + 
+  0.073*"love" + 0.067*"mattis" + 0.041*"path" + 0.025*"lopez" + 
+  0.018*"access" + 0.017*"condolence")]
+In [ ]:
+
