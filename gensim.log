@@ -1,0 +1,837 @@
+2018-10-26 17:22:21,972:INFO:initializing cython corpus reader from /Users/vira/Downloads/data.mm
+2018-10-26 17:22:21,982:INFO:accepted corpus with 5000 documents, 5426 features, 63919 non-zero entries
+2018-10-26 17:22:42,171:INFO:loading Dictionary object from /Users/vira/Downloads/data.dict
+2018-10-26 17:22:42,177:INFO:loaded /Users/vira/Downloads/data.dict
+2018-10-26 17:23:16,976:INFO:initializing cython corpus reader from /Users/vira/Downloads/disasterTweets.mm
+2018-10-26 17:23:16,981:INFO:accepted corpus with 26476291 documents, 276204 features, 145040059 non-zero entries
+2018-10-26 17:23:24,386:INFO:loading Dictionary object from /Users/vira/Downloads/disasterTweets.dict
+2018-10-26 17:23:24,567:INFO:loaded /Users/vira/Downloads/disasterTweets.dict
+2018-10-26 23:39:03,286:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-10-26 23:39:03,292:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-10-26 23:39:03,293:INFO:accepted corpus with 122 documents, 48 features, 348 non-zero entries
+2018-10-26 23:39:23,302:INFO:loading Dictionary object from Result/disasterTweets.dict
+2018-10-26 23:39:23,304:INFO:loaded Result/disasterTweets.dict
+2018-10-26 23:40:04,353:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-10-26 23:40:04,354:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-10-26 23:40:04,354:INFO:accepted corpus with 122 documents, 48 features, 348 non-zero entries
+2018-10-26 23:40:04,355:INFO:loading Dictionary object from Result/disasterTweets.dict
+2018-10-26 23:40:04,355:INFO:loaded Result/disasterTweets.dict
+2018-10-26 23:40:04,356:INFO:using symmetric alpha at 0.0033333333333333335
+2018-10-26 23:40:04,356:INFO:using symmetric eta at 0.0033333333333333335
+2018-10-26 23:40:04,356:INFO:using serial LDA version on this node
+2018-10-26 23:40:04,360:INFO:running online LDA training, 300 topics, 1 passes over the supplied corpus of 122 documents, updating every 255000 documents, evaluating every ~122 documents, iterating 50x with a convergence threshold of 0.001000
+2018-10-26 23:40:04,360:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2018-10-26 23:40:04,372:INFO:training LDA model using 3 processes
+2018-10-26 23:40:04,412:INFO:PROGRESS: pass 0, dispatched chunk #0 = documents up to #122/122, outstanding queue size 1
+2018-10-26 23:40:04,606:INFO:topic #62 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,611:INFO:topic #297 (0.003): 0.123*"ensemble" + 0.123*"datum" + 0.123*"intensity" + 0.123*"experimental" + 0.123*"ukmo" + 0.123*"harvey" + 0.123*"track" + 0.123*"cmc" + 0.000*"extremely_heavy_precip_possible" + 0.000*"agwx"
+2018-10-26 23:40:04,612:INFO:topic #172 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,613:INFO:topic #139 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,615:INFO:topic #192 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,618:INFO:topic diff=285.968658, rho=1.000000
+2018-10-26 23:40:04,725:INFO:-6.774 per-word bound, 109.4 perplexity estimate based on a held-out corpus of 122 documents with 349 words
+2018-10-26 23:40:04,818:INFO:topic #241 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,820:INFO:topic #271 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,821:INFO:topic #167 (0.003): 0.480*"eye_remnants_tropical_storm" + 0.476*"harvey_let_talk_detail" + 0.001*"next" + 0.001*"week" + 0.001*"threat" + 0.001*"rain" + 0.001*"agwx" + 0.001*"steveharvey" + 0.001*"america" + 0.001*"mid"
+2018-10-26 23:40:04,822:INFO:topic #139 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,823:INFO:topic #18 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,825:INFO:topic #169 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,826:INFO:topic #222 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,827:INFO:topic #237 (0.003): 0.246*"next_days_harvey" + 0.246*"agwx" + 0.246*"remnants_another_potential_system" + 0.246*"extremely_heavy_precip_possible" + 0.000*"week" + 0.000*"rain" + 0.000*"steveharvey" + 0.000*"heavy" + 0.000*"threat" + 0.000*"next"
+2018-10-26 23:40:04,828:INFO:topic #213 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,829:INFO:topic #38 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,831:INFO:topic #107 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,832:INFO:topic #45 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,833:INFO:topic #158 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,834:INFO:topic #258 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,835:INFO:topic #85 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,837:INFO:topic #135 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,838:INFO:topic #199 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,839:INFO:topic #281 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,840:INFO:topic #104 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-10-26 23:40:04,843:INFO:topic #64 (0.003): 0.021*"next" + 0.021*"mid" + 0.021*"week" + 0.021*"threat" + 0.021*"rain" + 0.021*"extremely_heavy_precip_possible" + 0.021*"steveharvey" + 0.021*"america" + 0.021*"next_days_harvey" + 0.021*"heavy"
+2018-11-05 00:25:44,897:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-11-05 00:25:44,899:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-11-05 00:25:44,900:INFO:accepted corpus with 0 documents, 0 features, 0 non-zero entries
+2018-11-05 08:49:11,186:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-11-05 08:49:11,188:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-11-05 08:49:11,201:INFO:accepted corpus with 124 documents, 123 features, 2014 non-zero entries
+2018-11-05 08:49:15,967:INFO:loading Dictionary object from Result/disasterTweets.dict
+2018-11-05 08:49:15,972:INFO:loaded Result/disasterTweets.dict
+2018-11-05 08:49:15,973:INFO:using symmetric alpha at 0.0033333333333333335
+2018-11-05 08:49:15,973:INFO:using symmetric eta at 0.0033333333333333335
+2018-11-05 08:49:15,973:INFO:using serial LDA version on this node
+2018-11-05 08:49:15,986:INFO:running online LDA training, 300 topics, 1 passes over the supplied corpus of 124 documents, updating every 255000 documents, evaluating every ~124 documents, iterating 50x with a convergence threshold of 0.001000
+2018-11-05 08:49:15,987:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2018-11-05 08:49:16,002:INFO:training LDA model using 3 processes
+2018-11-05 08:49:16,031:INFO:PROGRESS: pass 0, dispatched chunk #0 = documents up to #124/124, outstanding queue size 1
+2018-11-05 08:49:16,339:INFO:topic #25 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,341:INFO:topic #240 (0.003): 0.125*"the" + 0.060*"TROPICS" + 0.060*"UPDATE" + 0.060*"on" + 0.059*"Keeping" + 0.058*"eye" + 0.058*"very" + 0.058*"talk" + 0.057*"of" + 0.057*"Let"
+2018-11-05 08:49:16,342:INFO:topic #133 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,343:INFO:topic #216 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,345:INFO:topic #154 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,346:INFO:topic diff=278.469604, rho=1.000000
+2018-11-05 08:49:16,614:INFO:-8.071 per-word bound, 268.9 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 08:49:16,646:INFO:topic #228 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,648:INFO:topic #141 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,649:INFO:topic #198 (0.003): 0.054*"Extremely" + 0.054*"AGwx" + 0.054*"remnants" + 0.054*"precip" + 0.054*"potential" + 0.054*"and" + 0.054*"possible" + 0.054*"over" + 0.054*"heavy" + 0.054*"days"
+2018-11-05 08:49:16,650:INFO:topic #267 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,651:INFO:topic #230 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,653:INFO:topic #297 (0.003): 0.059*"next" + 0.059*"RT" + 0.057*"and" + 0.057*"or" + 0.057*"the" + 0.056*"Extremely" + 0.056*"over" + 0.055*"potential" + 0.055*"possible" + 0.054*"Harvey"
+2018-11-05 08:49:16,654:INFO:topic #30 (0.003): 0.054*"over" + 0.054*"precip" + 0.054*"and" + 0.054*"days" + 0.054*"heavy" + 0.054*"Extremely" + 0.054*"possible" + 0.054*"potential" + 0.054*"AGwx" + 0.054*"remnants"
+2018-11-05 08:49:16,656:INFO:topic #46 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,658:INFO:topic #211 (0.003): 0.103*"the" + 0.052*"remnants" + 0.052*"have" + 0.052*"Alright" + 0.052*"closely" + 0.052*"of" + 0.052*"continues" + 0.052*"GFS" + 0.052*"models" + 0.052*"time"
+2018-11-05 08:49:16,660:INFO:topic #190 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,662:INFO:topic #26 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,663:INFO:topic #295 (0.003): 0.052*"RT" + 0.052*"to" + 0.052*"over" + 0.052*"ex" + 0.052*"definitely" + 0.052*"Texas" + 0.052*"monitor" + 0.052*"as" + 0.052*"the" + 0.052*"days"
+2018-11-05 08:49:16,664:INFO:topic #1 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,666:INFO:topic #122 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,667:INFO:topic #221 (0.003): 0.149*"Barbados" + 0.075*"RT" + 0.075*"in" + 0.075*"Today" + 0.075*"Stranded" + 0.075*"Storm" + 0.075*"Photo" + 0.075*"Damage" + 0.075*"Harvey" + 0.075*"Commuters"
+2018-11-05 08:49:16,668:INFO:topic #128 (0.003): 0.055*"RT" + 0.055*"precip" + 0.055*"and" + 0.055*"heavy" + 0.055*"over" + 0.055*"another" + 0.055*"possible" + 0.055*"potential" + 0.055*"AGwx" + 0.055*"remnants"
+2018-11-05 08:49:16,669:INFO:topic #208 (0.003): 0.149*"Barbados" + 0.075*"RT" + 0.075*"in" + 0.075*"Today" + 0.075*"Stranded" + 0.075*"Tropical" + 0.075*"Storm" + 0.075*"Leaves" + 0.075*"Harvey" + 0.075*"Commuters"
+2018-11-05 08:49:16,671:INFO:topic #105 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,672:INFO:topic #93 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,676:INFO:topic #196 (0.003): 0.103*"the" + 0.052*"of" + 0.052*"Harvey" + 0.052*"models" + 0.052*"closely" + 0.052*"continues" + 0.052*"have" + 0.052*"remnants" + 0.052*"really" + 0.052*"time"
+2018-11-05 08:49:16,699:INFO:topic #72 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,700:INFO:topic #238 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,702:INFO:topic #231 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,703:INFO:topic #184 (0.003): 0.066*"Harvey" + 0.066*"Barbados" + 0.033*"Toda" + 0.033*"in" + 0.033*"heavy" + 0.033*"or" + 0.033*"next" + 0.033*"another" + 0.033*"so" + 0.033*"precip"
+2018-11-05 08:49:16,704:INFO:topic #50 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,705:INFO:topic #183 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,708:INFO:topic #178 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,712:INFO:topic #165 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,714:INFO:topic #281 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,716:INFO:topic #69 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,717:INFO:topic #34 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,719:INFO:topic #95 (0.003): 0.116*"the" + 0.069*"UPDATE" + 0.066*"Harvey" + 0.065*"TROPICS" + 0.063*"eye" + 0.058*"talk" + 0.057*"Tropical" + 0.055*"Storm" + 0.055*"Keeping" + 0.055*"remnants"
+2018-11-05 08:49:16,720:INFO:topic #191 (0.003): 0.067*"Harvey" + 0.057*"Barbados" + 0.041*"precip" + 0.041*"or" + 0.041*"another" + 0.041*"days" + 0.041*"next" + 0.041*"and" + 0.041*"heavy" + 0.041*"potential"
+2018-11-05 08:49:16,721:INFO:topic #251 (0.003): 0.066*"the" + 0.066*"heavy" + 0.065*"so" + 0.065*"days" + 0.063*"precip" + 0.061*"potential" + 0.061*"and" + 0.060*"system" + 0.059*"or" + 0.059*"next"
+2018-11-05 08:49:16,722:INFO:topic #154 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,724:INFO:topic #67 (0.003): 0.066*"next" + 0.056*"needs" + 0.055*"indicating" + 0.055*"South" + 0.055*"ex" + 0.055*"models" + 0.054*"as" + 0.052*"monitor" + 0.051*"Texas" + 0.050*"over"
+2018-11-05 08:49:16,727:INFO:topic #293 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,729:INFO:topic #10 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 08:49:16,731:INFO:topic #61 (0.003): 0.115*"the" + 0.058*"of" + 0.058*"details" + 0.058*"Let" + 0.058*"on" + 0.058*"Keeping" + 0.058*"eye" + 0.058*"close" + 0.058*"UPDATE" + 0.058*"TROPICS"
+2018-11-05 08:49:16,735:INFO:topic #108 (0.003): 0.054*"days" + 0.054*"possible" + 0.054*"and" + 0.054*"heavy" + 0.054*"over" + 0.054*"Extremely" + 0.054*"remnants" + 0.054*"precip" + 0.054*"AGwx" + 0.054*"potential"
+2018-11-05 08:49:16,760:INFO:saving LdaState object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state, separately None
+2018-11-05 08:49:16,769:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state
+2018-11-05 08:49:16,772:INFO:saving LdaMulticore object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model, separately ['expElogbeta', 'sstats']
+2018-11-05 08:49:16,774:INFO:storing np array 'expElogbeta' to /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.expElogbeta.npy
+2018-11-05 08:49:16,921:INFO:not storing attribute dispatcher
+2018-11-05 08:49:16,922:INFO:not storing attribute id2word
+2018-11-05 08:49:16,923:INFO:not storing attribute state
+2018-11-05 08:49:16,925:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model
+2018-11-05 08:49:17,179:INFO:-8.062 per-word bound, 267.2 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 08:49:43,288:INFO:using ParallelWordOccurrenceAccumulator(processes=3, batch_size=64) to estimate probabilities from sliding windows
+2018-11-05 08:49:43,426:INFO:serializing accumulator to return to master...
+2018-11-05 08:49:43,429:INFO:accumulator serialized
+2018-11-05 08:49:43,436:INFO:serializing accumulator to return to master...
+2018-11-05 08:49:43,439:INFO:accumulator serialized
+2018-11-05 08:49:43,462:INFO:serializing accumulator to return to master...
+2018-11-05 08:49:43,470:INFO:accumulator serialized
+2018-11-05 08:49:43,487:INFO:3 accumulators retrieved from output queue
+2018-11-05 08:49:43,678:INFO:accumulated word occurrence stats for 0 virtual documents
+2018-11-05 09:02:02,159:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-11-05 09:02:02,161:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-11-05 09:02:02,166:INFO:accepted corpus with 124 documents, 123 features, 2014 non-zero entries
+2018-11-05 09:02:02,167:INFO:loading Dictionary object from Result/disasterTweets.dict
+2018-11-05 09:02:02,167:INFO:loaded Result/disasterTweets.dict
+2018-11-05 09:02:02,168:INFO:using symmetric alpha at 0.0033333333333333335
+2018-11-05 09:02:02,168:INFO:using symmetric eta at 0.0033333333333333335
+2018-11-05 09:02:02,168:INFO:using serial LDA version on this node
+2018-11-05 09:02:02,172:INFO:running online LDA training, 300 topics, 1 passes over the supplied corpus of 124 documents, updating every 255000 documents, evaluating every ~124 documents, iterating 50x with a convergence threshold of 0.001000
+2018-11-05 09:02:02,173:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2018-11-05 09:02:02,192:INFO:training LDA model using 3 processes
+2018-11-05 09:02:02,218:INFO:PROGRESS: pass 0, dispatched chunk #0 = documents up to #124/124, outstanding queue size 1
+2018-11-05 09:02:02,498:INFO:topic #131 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,499:INFO:topic #8 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,500:INFO:topic #53 (0.003): 0.058*"Harvey" + 0.058*"next" + 0.057*"the" + 0.037*"America" + 0.037*"to" + 0.037*"week" + 0.037*"threat" + 0.037*"rain" + 0.037*"Caribbean" + 0.037*"has"
+2018-11-05 09:02:02,501:INFO:topic #201 (0.003): 0.111*"the" + 0.104*"Harvey" + 0.070*"Tropical" + 0.055*"Storm" + 0.039*"talk" + 0.039*"Eastern" + 0.038*"close" + 0.037*"of" + 0.037*"on" + 0.037*"very"
+2018-11-05 09:02:02,503:INFO:topic #113 (0.003): 0.149*"Barbados" + 0.075*"RT" + 0.075*"in" + 0.075*"Today" + 0.075*"Stranded" + 0.075*"Tropical" + 0.075*"Storm" + 0.075*"Harvey" + 0.075*"Commuters" + 0.075*"Damage"
+2018-11-05 09:02:02,504:INFO:topic diff=277.631836, rho=1.000000
+2018-11-05 09:02:02,755:INFO:-8.347 per-word bound, 325.7 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 09:02:02,854:INFO:topic #13 (0.003): 0.054*"days" + 0.054*"Extremely" + 0.054*"AGwx" + 0.054*"remnants" + 0.054*"precip" + 0.054*"and" + 0.054*"possible" + 0.054*"over" + 0.054*"heavy" + 0.054*"another"
+2018-11-05 09:02:02,855:INFO:topic #67 (0.003): 0.130*"Texas" + 0.065*"indicating" + 0.065*"of" + 0.065*"especially" + 0.065*"the" + 0.065*"stronger" + 0.065*"in" + 0.065*"models" + 0.065*"south" + 0.065*"possibility"
+2018-11-05 09:02:02,857:INFO:topic #26 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,858:INFO:topic #118 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,859:INFO:topic #223 (0.003): 0.088*"the" + 0.052*"Harvey" + 0.038*"Tropical" + 0.034*"very" + 0.034*"on" + 0.033*"UPDATE" + 0.033*"talk" + 0.033*"details" + 0.030*"TROPICS" + 0.030*"remnants"
+2018-11-05 09:02:02,861:INFO:topic #203 (0.003): 0.073*"the" + 0.056*"Harvey" + 0.048*"remnants" + 0.040*"over" + 0.039*"RT" + 0.039*"days" + 0.038*"next" + 0.032*"and" + 0.032*"potential" + 0.032*"Extremely"
+2018-11-05 09:02:02,862:INFO:topic #176 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,863:INFO:topic #41 (0.003): 0.054*"the" + 0.054*"possible" + 0.054*"potential" + 0.054*"heavy" + 0.054*"over" + 0.054*"another" + 0.054*"and" + 0.054*"precip" + 0.054*"AGwx" + 0.054*"remnants"
+2018-11-05 09:02:02,864:INFO:topic #149 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,865:INFO:topic #194 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,866:INFO:topic #172 (0.003): 0.061*"or" + 0.061*"the" + 0.061*"possible" + 0.061*"days" + 0.061*"system" + 0.061*"Extremely" + 0.061*"over" + 0.061*"and" + 0.061*"precip" + 0.061*"potential"
+2018-11-05 09:02:02,868:INFO:topic #152 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,869:INFO:topic #32 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,870:INFO:topic #9 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,871:INFO:topic #281 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,872:INFO:topic #267 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,873:INFO:topic #142 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,874:INFO:topic #74 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,876:INFO:topic #133 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,877:INFO:topic #125 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,895:INFO:topic #282 (0.003): 0.070*"over" + 0.065*"possible" + 0.064*"so" + 0.063*"and" + 0.063*"remnants" + 0.062*"another" + 0.062*"Extremely" + 0.061*"or" + 0.061*"system" + 0.060*"potential"
+2018-11-05 09:02:02,896:INFO:topic #122 (0.003): 0.059*"over" + 0.057*"the" + 0.056*"models" + 0.054*"Texas" + 0.052*"days" + 0.052*"definitely" + 0.052*"northwesterly" + 0.052*"monitor" + 0.051*"South" + 0.051*"ex"
+2018-11-05 09:02:02,897:INFO:topic #217 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,898:INFO:topic #19 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,899:INFO:topic #14 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,900:INFO:topic #184 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,902:INFO:topic #183 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,903:INFO:topic #54 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,904:INFO:topic #132 (0.003): 0.055*"or" + 0.055*"potential" + 0.055*"heavy" + 0.055*"days" + 0.055*"AGwx" + 0.055*"precip" + 0.055*"and" + 0.055*"possible" + 0.055*"over" + 0.055*"Extremely"
+2018-11-05 09:02:02,906:INFO:topic #253 (0.003): 0.061*"heavy" + 0.061*"potential" + 0.061*"another" + 0.061*"system" + 0.061*"days" + 0.061*"Extremely" + 0.061*"or" + 0.061*"possible" + 0.061*"precip" + 0.061*"and"
+2018-11-05 09:02:02,907:INFO:topic #66 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,908:INFO:topic #256 (0.003): 0.115*"the" + 0.058*"very" + 0.058*"of" + 0.058*"close" + 0.058*"Keeping" + 0.058*"UPDATE" + 0.058*"Let" + 0.058*"eye" + 0.058*"on" + 0.058*"Tropical"
+2018-11-05 09:02:02,909:INFO:topic #95 (0.003): 0.115*"the" + 0.058*"very" + 0.058*"Let" + 0.058*"Tropical" + 0.058*"on" + 0.058*"Keeping" + 0.058*"eye" + 0.058*"close" + 0.058*"UPDATE" + 0.058*"TROPICS"
+2018-11-05 09:02:02,910:INFO:topic #176 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,912:INFO:topic #213 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,913:INFO:topic #137 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,914:INFO:topic #227 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,915:INFO:topic #22 (0.003): 0.077*"the" + 0.056*"remnants" + 0.056*"Harvey" + 0.055*"RT" + 0.035*"days" + 0.035*"another" + 0.034*"precip" + 0.034*"Extremely" + 0.034*"next" + 0.034*"potential"
+2018-11-05 09:02:02,917:INFO:topic #215 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:02:02,918:INFO:topic #181 (0.003): 0.130*"Texas" + 0.065*"of" + 0.065*"the" + 0.065*"stronger" + 0.065*"in" + 0.065*"models" + 0.065*"especially" + 0.065*"RT" + 0.065*"Harvey" + 0.065*"possibility"
+2018-11-05 09:02:02,937:INFO:saving LdaState object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state, separately None
+2018-11-05 09:02:02,941:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state
+2018-11-05 09:02:02,943:INFO:saving LdaMulticore object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model, separately ['expElogbeta', 'sstats']
+2018-11-05 09:02:02,945:INFO:storing np array 'expElogbeta' to /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.expElogbeta.npy
+2018-11-05 09:02:03,175:INFO:not storing attribute dispatcher
+2018-11-05 09:02:03,178:INFO:not storing attribute state
+2018-11-05 09:02:03,179:INFO:not storing attribute id2word
+2018-11-05 09:02:03,180:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model
+2018-11-05 09:02:03,441:INFO:-8.379 per-word bound, 333.0 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 09:03:35,945:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-11-05 09:03:35,945:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-11-05 09:03:35,946:INFO:accepted corpus with 124 documents, 123 features, 2014 non-zero entries
+2018-11-05 09:03:35,946:INFO:loading Dictionary object from Result/disasterTweets.dict
+2018-11-05 09:03:35,946:INFO:loaded Result/disasterTweets.dict
+2018-11-05 09:03:35,946:INFO:using symmetric alpha at 0.0033333333333333335
+2018-11-05 09:03:35,947:INFO:using symmetric eta at 0.0033333333333333335
+2018-11-05 09:03:35,947:INFO:using serial LDA version on this node
+2018-11-05 09:03:35,951:INFO:running online LDA training, 300 topics, 1 passes over the supplied corpus of 124 documents, updating every 255000 documents, evaluating every ~124 documents, iterating 50x with a convergence threshold of 0.001000
+2018-11-05 09:03:35,951:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2018-11-05 09:03:35,957:INFO:training LDA model using 3 processes
+2018-11-05 09:03:35,999:INFO:PROGRESS: pass 0, dispatched chunk #0 = documents up to #124/124, outstanding queue size 1
+2018-11-05 09:03:36,288:INFO:topic #297 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,289:INFO:topic #65 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,290:INFO:topic #18 (0.003): 0.054*"AGwx" + 0.054*"and" + 0.054*"days" + 0.054*"heavy" + 0.054*"over" + 0.054*"Extremely" + 0.054*"possible" + 0.054*"precip" + 0.054*"potential" + 0.054*"remnants"
+2018-11-05 09:03:36,292:INFO:topic #234 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,293:INFO:topic #231 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,294:INFO:topic diff=278.418518, rho=1.000000
+2018-11-05 09:03:36,585:INFO:-8.140 per-word bound, 282.1 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 09:03:36,604:INFO:topic #33 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,605:INFO:topic #225 (0.003): 0.055*"so" + 0.055*"and" + 0.055*"over" + 0.055*"Extremely" + 0.055*"AGwx" + 0.055*"remnants" + 0.055*"precip" + 0.055*"potential" + 0.055*"heavy" + 0.055*"days"
+2018-11-05 09:03:36,606:INFO:topic #81 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,608:INFO:topic #79 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,609:INFO:topic #58 (0.003): 0.064*"tra" + 0.062*"Texas" + 0.062*"to" + 0.061*"South" + 0.056*"models" + 0.055*"indicating" + 0.055*"monitor" + 0.053*"more" + 0.050*"RT" + 0.050*"northwesterly"
+2018-11-05 09:03:36,610:INFO:topic #186 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,611:INFO:topic #155 (0.003): 0.114*"Texas" + 0.079*"indicating" + 0.073*"is" + 0.067*"south" + 0.066*"stronger" + 0.066*"of" + 0.066*"in" + 0.064*"the" + 0.063*"RT" + 0.060*"play"
+2018-11-05 09:03:36,612:INFO:topic #82 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,613:INFO:topic #122 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,615:INFO:topic #297 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,616:INFO:topic #111 (0.003): 0.065*"so" + 0.061*"potential" + 0.061*"possible" + 0.061*"Harvey" + 0.061*"precip" + 0.060*"another" + 0.060*"heavy" + 0.059*"the" + 0.058*"Extremely" + 0.058*"and"
+2018-11-05 09:03:36,617:INFO:topic #296 (0.003): 0.109*"the" + 0.054*"very" + 0.054*"Harvey" + 0.054*"on" + 0.054*"Let" + 0.054*"eye" + 0.054*"close" + 0.054*"YourNews" + 0.054*"UPDATE" + 0.054*"TROPICS"
+2018-11-05 09:03:36,618:INFO:topic #177 (0.003): 0.155*"Barbados" + 0.078*"in" + 0.077*"Commuters" + 0.077*"Photo" + 0.077*"Harvey" + 0.077*"Today" + 0.076*"Storm" + 0.076*"Stranded" + 0.074*"Tropical" + 0.073*"Leaves"
+2018-11-05 09:03:36,620:INFO:topic #7 (0.003): 0.084*"the" + 0.057*"Harvey" + 0.056*"remnants" + 0.031*"another" + 0.031*"RT" + 0.031*"Extremely" + 0.031*"or" + 0.031*"days" + 0.031*"so" + 0.031*"heavy"
+2018-11-05 09:03:36,621:INFO:topic #230 (0.003): 0.054*"another" + 0.054*"heavy" + 0.054*"possible" + 0.054*"days" + 0.054*"over" + 0.054*"Extremely" + 0.054*"remnants" + 0.054*"precip" + 0.054*"AGwx" + 0.054*"potential"
+2018-11-05 09:03:36,622:INFO:topic #200 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,623:INFO:topic #214 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,624:INFO:topic #257 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,625:INFO:topic #115 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,627:INFO:topic #19 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,644:INFO:topic #103 (0.003): 0.103*"the" + 0.052*"continues" + 0.052*"remnants" + 0.052*"have" + 0.052*"models" + 0.052*"closely" + 0.052*"of" + 0.052*"time" + 0.052*"trend" + 0.052*"to"
+2018-11-05 09:03:36,645:INFO:topic #257 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,646:INFO:topic #206 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,647:INFO:topic #118 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,648:INFO:topic #133 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,650:INFO:topic #277 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,651:INFO:topic #145 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,652:INFO:topic #105 (0.003): 0.062*"another" + 0.062*"heavy" + 0.059*"days" + 0.059*"over" + 0.059*"possible" + 0.058*"and" + 0.056*"Extremely" + 0.054*"precip" + 0.053*"RT" + 0.051*"the"
+2018-11-05 09:03:36,654:INFO:topic #210 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,655:INFO:topic #85 (0.003): 0.142*"Barbados" + 0.092*"Commuters" + 0.085*"Damage" + 0.085*"Stranded" + 0.084*"Leaves" + 0.082*"in" + 0.081*"Harvey" + 0.081*"Photo" + 0.080*"Toda" + 0.074*"Storm"
+2018-11-05 09:03:36,656:INFO:topic #75 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,657:INFO:topic #44 (0.003): 0.130*"Texas" + 0.065*"Harvey" + 0.065*"of" + 0.065*"the" + 0.065*"stronger" + 0.065*"in" + 0.065*"especially" + 0.065*"RT" + 0.065*"play" + 0.065*"possibility"
+2018-11-05 09:03:36,658:INFO:topic #164 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,660:INFO:topic #287 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,662:INFO:topic #10 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,663:INFO:topic #191 (0.003): 0.142*"the" + 0.062*"on" + 0.060*"Storm" + 0.059*"Keeping" + 0.059*"TROPICS" + 0.059*"of" + 0.058*"talk" + 0.054*"UPDATE" + 0.054*"details" + 0.052*"Harvey"
+2018-11-05 09:03:36,664:INFO:topic #283 (0.003): 0.149*"Barbados" + 0.075*"Tropical" + 0.075*"RT" + 0.075*"in" + 0.075*"Today" + 0.075*"Stranded" + 0.075*"Storm" + 0.075*"Leaves" + 0.075*"Harvey" + 0.075*"Commuters"
+2018-11-05 09:03:36,665:INFO:topic #67 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,666:INFO:topic #65 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,668:INFO:topic #80 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:03:36,686:INFO:saving LdaState object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state, separately None
+2018-11-05 09:03:36,689:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state
+2018-11-05 09:03:36,692:INFO:saving LdaMulticore object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model, separately ['expElogbeta', 'sstats']
+2018-11-05 09:03:36,694:INFO:storing np array 'expElogbeta' to /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.expElogbeta.npy
+2018-11-05 09:03:36,863:INFO:not storing attribute dispatcher
+2018-11-05 09:03:36,865:INFO:not storing attribute id2word
+2018-11-05 09:03:36,866:INFO:not storing attribute state
+2018-11-05 09:03:36,870:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model
+2018-11-05 09:03:37,163:INFO:-8.147 per-word bound, 283.4 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 09:04:20,285:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-11-05 09:04:20,286:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-11-05 09:04:20,286:INFO:accepted corpus with 124 documents, 123 features, 2014 non-zero entries
+2018-11-05 09:04:20,286:INFO:loading Dictionary object from Result/disasterTweets.dict
+2018-11-05 09:04:20,287:INFO:loaded Result/disasterTweets.dict
+2018-11-05 09:04:20,287:INFO:using symmetric alpha at 0.0033333333333333335
+2018-11-05 09:04:20,287:INFO:using symmetric eta at 0.0033333333333333335
+2018-11-05 09:04:20,287:INFO:using serial LDA version on this node
+2018-11-05 09:04:20,292:INFO:running online LDA training, 300 topics, 1 passes over the supplied corpus of 124 documents, updating every 255000 documents, evaluating every ~124 documents, iterating 50x with a convergence threshold of 0.001000
+2018-11-05 09:04:20,292:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2018-11-05 09:04:20,298:INFO:training LDA model using 3 processes
+2018-11-05 09:04:20,334:INFO:PROGRESS: pass 0, dispatched chunk #0 = documents up to #124/124, outstanding queue size 1
+2018-11-05 09:04:20,575:INFO:topic #173 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,576:INFO:topic #280 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,577:INFO:topic #40 (0.003): 0.052*"as" + 0.052*"Harvey" + 0.052*"tra" + 0.052*"South" + 0.052*"definitely" + 0.052*"over" + 0.052*"ex" + 0.052*"monitor" + 0.052*"Texas" + 0.052*"the"
+2018-11-05 09:04:20,579:INFO:topic #222 (0.003): 0.054*"precip" + 0.054*"Harvey" + 0.054*"possible" + 0.054*"potential" + 0.054*"heavy" + 0.054*"over" + 0.054*"another" + 0.054*"AGwx" + 0.054*"and" + 0.054*"remnants"
+2018-11-05 09:04:20,580:INFO:topic #251 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,581:INFO:topic diff=277.350616, rho=1.000000
+2018-11-05 09:04:20,830:INFO:-8.392 per-word bound, 335.8 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 09:04:20,843:INFO:topic #130 (0.003): 0.130*"Texas" + 0.065*"the" + 0.065*"Harvey" + 0.065*"play" + 0.065*"RT" + 0.065*"of" + 0.065*"stronger" + 0.065*"in" + 0.065*"models" + 0.065*"especially"
+2018-11-05 09:04:20,844:INFO:topic #19 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,845:INFO:topic #157 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,846:INFO:topic #118 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,848:INFO:topic #252 (0.003): 0.120*"the" + 0.067*"TROPICS" + 0.065*"eye" + 0.062*"Keeping" + 0.062*"very" + 0.058*"close" + 0.058*"details" + 0.057*"remnants" + 0.056*"on" + 0.054*"of"
+2018-11-05 09:04:20,849:INFO:topic #122 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,850:INFO:topic #280 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,851:INFO:topic #37 (0.003): 0.085*"the" + 0.060*"Harvey" + 0.060*"Tropical" + 0.059*"Storm" + 0.058*"RT" + 0.043*"TROPICS" + 0.043*"YourNews" + 0.043*"Keeping" + 0.043*"remnants" + 0.043*"UPDATE"
+2018-11-05 09:04:20,852:INFO:topic #261 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,853:INFO:topic #8 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,855:INFO:topic #121 (0.003): 0.115*"the" + 0.058*"TROPICS" + 0.058*"Storm" + 0.058*"details" + 0.058*"Let" + 0.058*"on" + 0.058*"Keeping" + 0.058*"eye" + 0.058*"close" + 0.058*"UPDATE"
+2018-11-05 09:04:20,856:INFO:topic #134 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,857:INFO:topic #11 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,858:INFO:topic #91 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,859:INFO:topic #180 (0.003): 0.066*"the" + 0.057*"remnants" + 0.057*"RT" + 0.056*"Harvey" + 0.039*"so" + 0.039*"Extremely" + 0.039*"another" + 0.039*"days" + 0.039*"potential" + 0.039*"heavy"
+2018-11-05 09:04:20,860:INFO:topic #148 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,862:INFO:topic #90 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,863:INFO:topic #140 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,864:INFO:topic #239 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,865:INFO:topic #276 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,881:INFO:topic #188 (0.003): 0.096*"the" + 0.059*"Harvey" + 0.058*"of" + 0.057*"RT" + 0.041*"Let" + 0.040*"close" + 0.040*"YourNews" + 0.040*"Tropical" + 0.040*"TROPICS" + 0.039*"very"
+2018-11-05 09:04:20,882:INFO:topic #101 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,883:INFO:topic #6 (0.003): 0.055*"RT" + 0.055*"days" + 0.055*"possible" + 0.055*"AGwx" + 0.055*"Harvey" + 0.055*"over" + 0.055*"next" + 0.055*"remnants" + 0.055*"Extremely" + 0.055*"and"
+2018-11-05 09:04:20,884:INFO:topic #224 (0.003): 0.112*"the" + 0.056*"start" + 0.055*"trend" + 0.055*"Harvey" + 0.054*"remnants" + 0.054*"watching" + 0.051*"time" + 0.051*"of" + 0.051*"have" + 0.050*"continues"
+2018-11-05 09:04:20,886:INFO:topic #289 (0.003): 0.130*"Texas" + 0.065*"of" + 0.065*"play" + 0.065*"the" + 0.065*"stronger" + 0.065*"in" + 0.065*"models" + 0.065*"especially" + 0.065*"Harvey" + 0.065*"possibility"
+2018-11-05 09:04:20,887:INFO:topic #164 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,888:INFO:topic #174 (0.003): 0.059*"Harvey" + 0.058*"RT" + 0.046*"over" + 0.046*"another" + 0.046*"days" + 0.046*"heavy" + 0.046*"so" + 0.046*"AGwx" + 0.046*"or" + 0.046*"precip"
+2018-11-05 09:04:20,889:INFO:topic #210 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,890:INFO:topic #55 (0.003): 0.159*"Barbados" + 0.085*"in" + 0.082*"Stranded" + 0.076*"Tropical" + 0.075*"Commuters" + 0.074*"Damage" + 0.067*"RT" + 0.064*"Harvey" + 0.063*"Leaves" + 0.062*"Today"
+2018-11-05 09:04:20,892:INFO:topic #297 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,893:INFO:topic #116 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,894:INFO:topic #135 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,896:INFO:topic #68 (0.003): 0.091*"the" + 0.055*"Harvey" + 0.035*"close" + 0.035*"UPDATE" + 0.035*"very" + 0.035*"Let" + 0.034*"of" + 0.034*"Storm" + 0.034*"on" + 0.034*"TROPICS"
+2018-11-05 09:04:20,897:INFO:topic #246 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,898:INFO:topic #127 (0.003): 0.130*"Texas" + 0.065*"in" + 0.065*"models" + 0.065*"of" + 0.065*"the" + 0.065*"stronger" + 0.065*"especially" + 0.065*"RT" + 0.065*"Harvey" + 0.065*"possibility"
+2018-11-05 09:04:20,899:INFO:topic #229 (0.003): 0.054*"and" + 0.054*"possible" + 0.054*"days" + 0.054*"heavy" + 0.054*"over" + 0.054*"Extremely" + 0.054*"remnants" + 0.054*"precip" + 0.054*"AGwx" + 0.054*"potential"
+2018-11-05 09:04:20,900:INFO:topic #199 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,901:INFO:topic #81 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:20,903:INFO:topic #179 (0.003): 0.112*"the" + 0.056*"of" + 0.056*"Harvey" + 0.056*"remnants" + 0.038*"Storm" + 0.038*"very" + 0.038*"UPDATE" + 0.038*"Keeping" + 0.038*"on" + 0.038*"talk"
+2018-11-05 09:04:20,904:INFO:topic #252 (0.003): 0.120*"the" + 0.067*"TROPICS" + 0.065*"eye" + 0.062*"Keeping" + 0.062*"very" + 0.058*"close" + 0.058*"details" + 0.057*"remnants" + 0.056*"on" + 0.054*"of"
+2018-11-05 09:04:20,921:INFO:saving LdaState object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state, separately None
+2018-11-05 09:04:20,923:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state
+2018-11-05 09:04:20,926:INFO:saving LdaMulticore object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model, separately ['expElogbeta', 'sstats']
+2018-11-05 09:04:20,927:INFO:storing np array 'expElogbeta' to /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.expElogbeta.npy
+2018-11-05 09:04:21,058:INFO:not storing attribute id2word
+2018-11-05 09:04:21,059:INFO:not storing attribute dispatcher
+2018-11-05 09:04:21,060:INFO:not storing attribute state
+2018-11-05 09:04:21,062:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model
+2018-11-05 09:04:21,339:INFO:-8.397 per-word bound, 337.2 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 09:04:40,783:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-11-05 09:04:40,784:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-11-05 09:04:40,784:INFO:accepted corpus with 124 documents, 123 features, 2014 non-zero entries
+2018-11-05 09:04:40,784:INFO:loading Dictionary object from Result/disasterTweets.dict
+2018-11-05 09:04:40,785:INFO:loaded Result/disasterTweets.dict
+2018-11-05 09:04:40,785:INFO:using symmetric alpha at 0.0033333333333333335
+2018-11-05 09:04:40,786:INFO:using symmetric eta at 0.0033333333333333335
+2018-11-05 09:04:40,786:INFO:using serial LDA version on this node
+2018-11-05 09:04:40,792:INFO:running online LDA training, 300 topics, 1 passes over the supplied corpus of 124 documents, updating every 255000 documents, evaluating every ~124 documents, iterating 50x with a convergence threshold of 0.001000
+2018-11-05 09:04:40,792:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2018-11-05 09:04:40,801:INFO:training LDA model using 3 processes
+2018-11-05 09:04:40,840:INFO:PROGRESS: pass 0, dispatched chunk #0 = documents up to #124/124, outstanding queue size 1
+2018-11-05 09:04:41,169:INFO:topic #34 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,170:INFO:topic #176 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,171:INFO:topic #106 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,173:INFO:topic #0 (0.003): 0.067*"precip" + 0.065*"the" + 0.063*"Extremely" + 0.062*"and" + 0.062*"potential" + 0.060*"system" + 0.057*"over" + 0.056*"next" + 0.055*"or" + 0.054*"remnants"
+2018-11-05 09:04:41,174:INFO:topic #209 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,175:INFO:topic diff=278.025665, rho=1.000000
+2018-11-05 09:04:41,461:INFO:-8.232 per-word bound, 300.6 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 09:04:41,557:INFO:topic #4 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,558:INFO:topic #260 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,559:INFO:topic #183 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,560:INFO:topic #89 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,561:INFO:topic #230 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,563:INFO:topic #95 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,564:INFO:topic #5 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,565:INFO:topic #43 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,566:INFO:topic #265 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,567:INFO:topic #54 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,569:INFO:topic #170 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,570:INFO:topic #107 (0.003): 0.103*"the" + 0.052*"have" + 0.052*"really" + 0.052*"Alright" + 0.052*"closely" + 0.052*"of" + 0.052*"continues" + 0.052*"GFS" + 0.052*"models" + 0.052*"time"
+2018-11-05 09:04:41,571:INFO:topic #165 (0.003): 0.114*"the" + 0.059*"Keeping" + 0.058*"on" + 0.058*"Storm" + 0.058*"eye" + 0.058*"Tropical" + 0.057*"very" + 0.057*"UPDATE" + 0.057*"Let" + 0.057*"Harvey"
+2018-11-05 09:04:41,572:INFO:topic #280 (0.003): 0.088*"the" + 0.088*"Harvey" + 0.066*"RT" + 0.044*"Texas" + 0.044*"of" + 0.044*"Storm" + 0.044*"Tropical" + 0.022*"YourNews" + 0.022*"play" + 0.022*"talk"
+2018-11-05 09:04:41,574:INFO:topic #14 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,575:INFO:topic #198 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,576:INFO:topic #248 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,577:INFO:topic #231 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,578:INFO:topic #80 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,579:INFO:topic #194 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,597:INFO:topic #187 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,598:INFO:topic #62 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,600:INFO:topic #141 (0.003): 0.148*"Barbados" + 0.083*"Tropical" + 0.081*"in" + 0.081*"Stranded" + 0.077*"Leaves" + 0.077*"Photo" + 0.074*"Damage" + 0.071*"Harvey" + 0.071*"Today" + 0.069*"RT"
+2018-11-05 09:04:41,601:INFO:topic #196 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,602:INFO:topic #65 (0.003): 0.128*"Texas" + 0.074*"RT" + 0.071*"of" + 0.071*"Harvey" + 0.068*"play" + 0.067*"indicating" + 0.065*"possibility" + 0.065*"especially" + 0.065*"models" + 0.064*"is"
+2018-11-05 09:04:41,603:INFO:topic #262 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,604:INFO:topic #249 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,606:INFO:topic #81 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,607:INFO:topic #28 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,608:INFO:topic #108 (0.003): 0.149*"Barbados" + 0.075*"Harvey" + 0.075*"Storm" + 0.075*"Commuters" + 0.075*"Stranded" + 0.075*"in" + 0.075*"Today" + 0.075*"Damage" + 0.075*"Tropical" + 0.075*"Photo"
+2018-11-05 09:04:41,609:INFO:topic #166 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,610:INFO:topic #119 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,612:INFO:topic #194 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,613:INFO:topic #54 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,614:INFO:topic #217 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,615:INFO:topic #237 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,616:INFO:topic #68 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,618:INFO:topic #88 (0.003): 0.131*"Texas" + 0.070*"stronger" + 0.069*"the" + 0.069*"in" + 0.068*"south" + 0.066*"is" + 0.065*"models" + 0.065*"especially" + 0.065*"possibility" + 0.064*"indicating"
+2018-11-05 09:04:41,619:INFO:topic #25 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,620:INFO:topic #26 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:04:41,638:INFO:saving LdaState object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state, separately None
+2018-11-05 09:04:41,641:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state
+2018-11-05 09:04:41,644:INFO:saving LdaMulticore object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model, separately ['expElogbeta', 'sstats']
+2018-11-05 09:04:41,645:INFO:storing np array 'expElogbeta' to /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.expElogbeta.npy
+2018-11-05 09:04:41,774:INFO:not storing attribute id2word
+2018-11-05 09:04:41,775:INFO:not storing attribute dispatcher
+2018-11-05 09:04:41,776:INFO:not storing attribute state
+2018-11-05 09:04:41,779:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model
+2018-11-05 09:04:42,086:INFO:-8.200 per-word bound, 294.1 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 09:05:09,701:INFO:topic #222 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:05:09,704:INFO:topic #32 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:05:09,706:INFO:topic #27 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:05:09,710:INFO:topic #285 (0.003): 0.109*"the" + 0.054*"Tropical" + 0.054*"eye" + 0.054*"TROPICS" + 0.054*"remnants" + 0.054*"on" + 0.054*"Let" + 0.054*"close" + 0.054*"YourNews" + 0.054*"UPDATE"
+2018-11-05 09:05:09,713:INFO:topic #178 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:05:09,716:INFO:topic #257 (0.003): 0.054*"so" + 0.054*"and" + 0.054*"heavy" + 0.054*"over" + 0.054*"possible" + 0.054*"another" + 0.054*"remnants" + 0.054*"precip" + 0.054*"AGwx" + 0.054*"potential"
+2018-11-05 09:05:09,721:INFO:topic #123 (0.003): 0.060*"possible" + 0.059*"so" + 0.059*"precip" + 0.059*"days" + 0.058*"next" + 0.058*"and" + 0.058*"over" + 0.058*"Extremely" + 0.057*"another" + 0.057*"Harvey"
+2018-11-05 09:05:09,727:INFO:topic #53 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:05:09,733:INFO:topic #28 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:05:09,738:INFO:topic #207 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:05:09,741:INFO:topic #179 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:05:09,745:INFO:topic #33 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:05:09,748:INFO:topic #273 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:05:09,750:INFO:topic #48 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:05:09,752:INFO:topic #122 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:05:09,753:INFO:topic #266 (0.003): 0.084*"the" + 0.060*"RT" + 0.058*"models" + 0.058*"Texas" + 0.057*"Harvey" + 0.052*"of" + 0.031*"to" + 0.030*"indicating" + 0.026*"watching" + 0.026*"stronger"
+2018-11-05 09:05:09,754:INFO:topic #272 (0.003): 0.115*"the" + 0.058*"eye" + 0.058*"close" + 0.058*"TROPICS" + 0.058*"Let" + 0.058*"Tropical" + 0.058*"on" + 0.058*"Keeping" + 0.058*"UPDATE" + 0.058*"talk"
+2018-11-05 09:05:09,756:INFO:topic #14 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 09:05:09,758:INFO:topic #186 (0.003): 0.070*"Storm" + 0.066*"mid" + 0.066*"Central" + 0.062*"early" + 0.060*"Caribbean" + 0.056*"America" + 0.053*"rain" + 0.053*"has" + 0.048*"Harvey" + 0.047*"Tropical"
+2018-11-05 09:05:09,759:INFO:topic #252 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:14,681:INFO:initializing cython corpus reader from disasterTweets.mm
+2018-11-05 20:17:25,687:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-11-05 20:17:25,688:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-11-05 20:17:25,689:INFO:accepted corpus with 124 documents, 123 features, 2014 non-zero entries
+2018-11-05 20:17:25,690:INFO:loading Dictionary object from Result/disasterTweets.dict
+2018-11-05 20:17:25,690:INFO:loaded Result/disasterTweets.dict
+2018-11-05 20:17:25,695:INFO:using symmetric alpha at 0.0033333333333333335
+2018-11-05 20:17:25,696:INFO:using symmetric eta at 0.0033333333333333335
+2018-11-05 20:17:25,696:INFO:using serial LDA version on this node
+2018-11-05 20:17:25,703:INFO:running online LDA training, 300 topics, 1 passes over the supplied corpus of 124 documents, updating every 255000 documents, evaluating every ~124 documents, iterating 50x with a convergence threshold of 0.001000
+2018-11-05 20:17:25,703:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2018-11-05 20:17:25,712:INFO:training LDA model using 3 processes
+2018-11-05 20:17:25,749:INFO:PROGRESS: pass 0, dispatched chunk #0 = documents up to #124/124, outstanding queue size 1
+2018-11-05 20:17:26,060:INFO:topic #284 (0.003): 0.120*"the" + 0.065*"Let" + 0.063*"of" + 0.062*"close" + 0.061*"UPDATE" + 0.059*"Tropical" + 0.057*"talk" + 0.056*"on" + 0.056*"Keeping" + 0.056*"eye"
+2018-11-05 20:17:26,061:INFO:topic #25 (0.003): 0.088*"the" + 0.058*"Harvey" + 0.055*"RT" + 0.054*"remnants" + 0.035*"GFS" + 0.035*"time" + 0.035*"Alright" + 0.035*"of" + 0.035*"closely" + 0.035*"models"
+2018-11-05 20:17:26,063:INFO:topic #50 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,064:INFO:topic #34 (0.003): 0.068*"next" + 0.067*"Harvey" + 0.067*"the" + 0.064*"so" + 0.064*"over" + 0.064*"and" + 0.063*"another" + 0.058*"heavy" + 0.057*"precip" + 0.057*"potential"
+2018-11-05 20:17:26,065:INFO:topic #229 (0.003): 0.115*"the" + 0.058*"Tropical" + 0.058*"on" + 0.058*"Keeping" + 0.058*"eye" + 0.058*"close" + 0.058*"UPDATE" + 0.058*"TROPICS" + 0.058*"Let" + 0.058*"very"
+2018-11-05 20:17:26,066:INFO:topic diff=277.835632, rho=1.000000
+2018-11-05 20:17:26,394:INFO:-8.322 per-word bound, 320.0 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 20:17:26,444:INFO:topic #136 (0.003): 0.117*"the" + 0.058*"Harvey" + 0.058*"UPDATE" + 0.058*"Let" + 0.058*"Tropical" + 0.058*"on" + 0.058*"Keeping" + 0.058*"eye" + 0.058*"close" + 0.058*"TROPICS"
+2018-11-05 20:17:26,445:INFO:topic #106 (0.003): 0.064*"Harvey" + 0.064*"potential" + 0.064*"so" + 0.056*"Extremely" + 0.055*"the" + 0.054*"system" + 0.054*"possible" + 0.053*"RT" + 0.053*"heavy" + 0.052*"or"
+2018-11-05 20:17:26,446:INFO:topic #161 (0.003): 0.080*"Harvey" + 0.077*"the" + 0.065*"TROPICS" + 0.064*"on" + 0.062*"details" + 0.062*"Tropical" + 0.061*"close" + 0.057*"Keeping" + 0.057*"talk" + 0.056*"of"
+2018-11-05 20:17:26,448:INFO:topic #118 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,449:INFO:topic #3 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,450:INFO:topic #239 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,451:INFO:topic #82 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,453:INFO:topic #250 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,454:INFO:topic #169 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,455:INFO:topic #104 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,456:INFO:topic #284 (0.003): 0.120*"the" + 0.065*"Let" + 0.063*"of" + 0.062*"close" + 0.061*"UPDATE" + 0.059*"Tropical" + 0.057*"talk" + 0.056*"on" + 0.056*"Keeping" + 0.056*"eye"
+2018-11-05 20:17:26,458:INFO:topic #148 (0.003): 0.087*"the" + 0.060*"Harvey" + 0.054*"remnants" + 0.042*"TROPICS" + 0.042*"talk" + 0.039*"details" + 0.037*"very" + 0.034*"UPDATE" + 0.033*"of" + 0.033*"Tropical"
+2018-11-05 20:17:26,459:INFO:topic #5 (0.003): 0.090*"the" + 0.060*"Texas" + 0.060*"Harvey" + 0.060*"of" + 0.060*"RT" + 0.030*"in" + 0.030*"talk" + 0.030*"TROPICS" + 0.030*"very" + 0.030*"indicating"
+2018-11-05 20:17:26,460:INFO:topic #85 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,461:INFO:topic #168 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,463:INFO:topic #107 (0.003): 0.124*"Texas" + 0.076*"play" + 0.069*"is" + 0.067*"especially" + 0.064*"possibility" + 0.063*"in" + 0.061*"Harvey" + 0.061*"the" + 0.059*"stronger" + 0.057*"south"
+2018-11-05 20:17:26,464:INFO:topic #261 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,465:INFO:topic #249 (0.003): 0.064*"Harvey" + 0.064*"Texas" + 0.064*"the" + 0.032*"in" + 0.032*"especially" + 0.032*"or" + 0.032*"days" + 0.032*"of" + 0.032*"heavy" + 0.032*"possible"
+2018-11-05 20:17:26,466:INFO:topic #73 (0.003): 0.115*"the" + 0.058*"details" + 0.058*"on" + 0.058*"Keeping" + 0.058*"eye" + 0.058*"close" + 0.058*"TROPICS" + 0.058*"Let" + 0.058*"very" + 0.058*"talk"
+2018-11-05 20:17:26,467:INFO:topic #45 (0.003): 0.074*"over" + 0.063*"possible" + 0.058*"Harvey" + 0.058*"system" + 0.057*"RT" + 0.056*"so" + 0.054*"and" + 0.053*"another" + 0.052*"or" + 0.051*"next"
+2018-11-05 20:17:26,486:INFO:topic #296 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,488:INFO:topic #217 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,491:INFO:topic #199 (0.003): 0.117*"Texas" + 0.085*"stronger" + 0.071*"is" + 0.069*"RT" + 0.068*"Harvey" + 0.067*"models" + 0.066*"play" + 0.066*"especially" + 0.064*"possibility" + 0.061*"south"
+2018-11-05 20:17:26,492:INFO:topic #230 (0.003): 0.077*"the" + 0.051*"remnants" + 0.049*"RT" + 0.045*"Harvey" + 0.035*"continues" + 0.035*"shown" + 0.035*"of" + 0.034*"closely" + 0.034*"GFS" + 0.034*"watching"
+2018-11-05 20:17:26,493:INFO:topic #92 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,495:INFO:topic #253 (0.003): 0.090*"the" + 0.060*"Harvey" + 0.060*"remnants" + 0.030*"talk" + 0.030*"eye" + 0.030*"UPDATE" + 0.030*"potential" + 0.030*"very" + 0.030*"on" + 0.030*"and"
+2018-11-05 20:17:26,498:INFO:topic #233 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,500:INFO:topic #83 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,503:INFO:topic #0 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,505:INFO:topic #101 (0.003): 0.061*"or" + 0.061*"Extremely" + 0.061*"precip" + 0.061*"potential" + 0.061*"and" + 0.061*"possible" + 0.061*"over" + 0.061*"system" + 0.061*"days" + 0.061*"another"
+2018-11-05 20:17:26,507:INFO:topic #244 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,508:INFO:topic #156 (0.003): 0.138*"the" + 0.062*"Let" + 0.061*"Storm" + 0.061*"UPDATE" + 0.061*"remnants" + 0.059*"of" + 0.058*"very" + 0.057*"Tropical" + 0.057*"talk" + 0.056*"eye"
+2018-11-05 20:17:26,509:INFO:topic #99 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,511:INFO:topic #202 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,512:INFO:topic #167 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,513:INFO:topic #149 (0.003): 0.068*"the" + 0.065*"or" + 0.065*"Extremely" + 0.064*"and" + 0.064*"heavy" + 0.063*"system" + 0.062*"precip" + 0.061*"next" + 0.059*"remnants" + 0.059*"days"
+2018-11-05 20:17:26,515:INFO:topic #56 (0.003): 0.054*"next" + 0.054*"another" + 0.054*"the" + 0.054*"possible" + 0.054*"heavy" + 0.054*"over" + 0.054*"potential" + 0.054*"and" + 0.054*"precip" + 0.054*"AGwx"
+2018-11-05 20:17:26,516:INFO:topic #19 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,518:INFO:topic #193 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,519:INFO:topic #20 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:17:26,539:INFO:saving LdaState object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state, separately None
+2018-11-05 20:17:26,542:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state
+2018-11-05 20:17:26,545:INFO:saving LdaMulticore object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model, separately ['expElogbeta', 'sstats']
+2018-11-05 20:17:26,547:INFO:storing np array 'expElogbeta' to /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.expElogbeta.npy
+2018-11-05 20:17:26,695:INFO:not storing attribute dispatcher
+2018-11-05 20:17:26,698:INFO:not storing attribute id2word
+2018-11-05 20:17:26,703:INFO:not storing attribute state
+2018-11-05 20:17:26,709:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model
+2018-11-05 20:17:26,998:INFO:-8.281 per-word bound, 311.0 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 20:17:38,455:INFO:using ParallelWordOccurrenceAccumulator(processes=3, batch_size=64) to estimate probabilities from sliding windows
+2018-11-05 20:17:40,730:INFO:serializing accumulator to return to master...
+2018-11-05 20:17:40,730:INFO:serializing accumulator to return to master...
+2018-11-05 20:17:40,730:INFO:serializing accumulator to return to master...
+2018-11-05 20:17:40,739:INFO:accumulator serialized
+2018-11-05 20:17:40,739:INFO:accumulator serialized
+2018-11-05 20:17:40,739:INFO:accumulator serialized
+2018-11-05 20:17:40,748:INFO:3 accumulators retrieved from output queue
+2018-11-05 20:17:40,908:INFO:accumulated word occurrence stats for 0 virtual documents
+2018-11-05 20:18:42,586:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-11-05 20:18:42,587:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-11-05 20:18:42,593:INFO:accepted corpus with 124 documents, 123 features, 2014 non-zero entries
+2018-11-05 20:18:42,593:INFO:loading Dictionary object from Result/disasterTweets.dict
+2018-11-05 20:18:42,594:INFO:loaded Result/disasterTweets.dict
+2018-11-05 20:18:43,275:INFO:topic #69 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,276:INFO:topic #164 (0.003): 0.100*"the" + 0.063*"remnants" + 0.062*"of" + 0.061*"Tropical" + 0.061*"Keeping" + 0.060*"very" + 0.059*"eye" + 0.059*"on" + 0.058*"talk" + 0.058*"UPDATE"
+2018-11-05 20:18:43,276:INFO:topic #281 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,277:INFO:topic #68 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,277:INFO:topic #176 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,277:INFO:topic #82 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,278:INFO:topic #64 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,278:INFO:topic #168 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,279:INFO:topic #159 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,279:INFO:topic #205 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,280:INFO:topic #13 (0.003): 0.054*"days" + 0.054*"next" + 0.054*"RT" + 0.054*"the" + 0.054*"Harvey" + 0.054*"over" + 0.027*"AGwx" + 0.027*"definitely" + 0.027*"or" + 0.027*"heavy"
+2018-11-05 20:18:43,280:INFO:topic #156 (0.003): 0.138*"the" + 0.062*"Let" + 0.061*"Storm" + 0.061*"UPDATE" + 0.061*"remnants" + 0.059*"of" + 0.058*"very" + 0.057*"Tropical" + 0.057*"talk" + 0.056*"eye"
+2018-11-05 20:18:43,281:INFO:topic #181 (0.003): 0.070*"remnants" + 0.067*"possible" + 0.066*"another" + 0.063*"Extremely" + 0.062*"Harvey" + 0.061*"precip" + 0.061*"the" + 0.059*"system" + 0.058*"or" + 0.057*"so"
+2018-11-05 20:18:43,281:INFO:topic #206 (0.003): 0.103*"the" + 0.052*"really" + 0.052*"RT" + 0.052*"start" + 0.052*"closely" + 0.052*"of" + 0.052*"continues" + 0.052*"have" + 0.052*"remnants" + 0.052*"models"
+2018-11-05 20:18:43,282:INFO:topic #238 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,282:INFO:topic #272 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,282:INFO:topic #27 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,283:INFO:topic #39 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,283:INFO:topic #198 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:18:43,284:INFO:topic #170 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:04,907:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-11-05 20:19:04,907:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-11-05 20:19:04,912:INFO:accepted corpus with 124 documents, 123 features, 2014 non-zero entries
+2018-11-05 20:19:04,912:INFO:loading Dictionary object from Result/disasterTweets.dict
+2018-11-05 20:19:04,913:INFO:loaded Result/disasterTweets.dict
+2018-11-05 20:19:04,916:INFO:using symmetric alpha at 0.0033333333333333335
+2018-11-05 20:19:04,917:INFO:using symmetric eta at 0.0033333333333333335
+2018-11-05 20:19:04,917:INFO:using serial LDA version on this node
+2018-11-05 20:19:04,921:INFO:running online LDA training, 300 topics, 1 passes over the supplied corpus of 124 documents, updating every 255000 documents, evaluating every ~124 documents, iterating 50x with a convergence threshold of 0.001000
+2018-11-05 20:19:04,921:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2018-11-05 20:19:04,933:INFO:training LDA model using 3 processes
+2018-11-05 20:19:04,977:INFO:PROGRESS: pass 0, dispatched chunk #0 = documents up to #124/124, outstanding queue size 1
+2018-11-05 20:19:05,265:INFO:topic #294 (0.003): 0.117*"the" + 0.072*"of" + 0.072*"very" + 0.068*"Tropical" + 0.063*"talk" + 0.062*"Harvey" + 0.057*"on" + 0.055*"Keeping" + 0.053*"details" + 0.050*"eye"
+2018-11-05 20:19:05,266:INFO:topic #42 (0.003): 0.058*"iffy" + 0.058*"harvey" + 0.058*"might" + 0.058*"make" + 0.058*"just" + 0.058*"projections" + 0.058*"huge" + 0.058*"They" + 0.058*"are" + 0.058*"known"
+2018-11-05 20:19:05,268:INFO:topic #97 (0.003): 0.149*"Barbados" + 0.075*"RT" + 0.075*"Today" + 0.075*"Stranded" + 0.075*"Tropical" + 0.075*"Storm" + 0.075*"Photo" + 0.075*"Damage" + 0.075*"Harvey" + 0.075*"Leaves"
+2018-11-05 20:19:05,269:INFO:topic #202 (0.003): 0.054*"or" + 0.054*"days" + 0.054*"possible" + 0.054*"heavy" + 0.054*"over" + 0.054*"and" + 0.054*"remnants" + 0.054*"precip" + 0.054*"AGwx" + 0.054*"potential"
+2018-11-05 20:19:05,270:INFO:topic #145 (0.003): 0.115*"the" + 0.058*"talk" + 0.058*"Let" + 0.058*"Tropical" + 0.058*"on" + 0.058*"Keeping" + 0.058*"eye" + 0.058*"close" + 0.058*"UPDATE" + 0.058*"TROPICS"
+2018-11-05 20:19:05,271:INFO:topic diff=278.398712, rho=1.000000
+2018-11-05 20:19:05,564:INFO:-8.177 per-word bound, 289.4 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 20:19:05,622:INFO:topic #206 (0.003): 0.079*"the" + 0.057*"remnants" + 0.057*"Harvey" + 0.034*"Extremely" + 0.034*"RT" + 0.034*"AGwx" + 0.034*"precip" + 0.034*"days" + 0.034*"so" + 0.034*"heavy"
+2018-11-05 20:19:05,624:INFO:topic #246 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,626:INFO:topic #169 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,629:INFO:topic #147 (0.003): 0.065*"next" + 0.061*"over" + 0.061*"days" + 0.059*"another" + 0.059*"heavy" + 0.058*"so" + 0.057*"RT" + 0.056*"Harvey" + 0.056*"potential" + 0.052*"and"
+2018-11-05 20:19:05,631:INFO:topic #283 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,633:INFO:topic #62 (0.003): 0.055*"next" + 0.055*"and" + 0.055*"heavy" + 0.055*"over" + 0.055*"possible" + 0.055*"another" + 0.055*"remnants" + 0.055*"precip" + 0.055*"AGwx" + 0.055*"potential"
+2018-11-05 20:19:05,634:INFO:topic #122 (0.003): 0.149*"Barbados" + 0.075*"RT" + 0.075*"in" + 0.075*"Today" + 0.075*"Stranded" + 0.075*"Tropical" + 0.075*"Storm" + 0.075*"Leaves" + 0.075*"Harvey" + 0.075*"Commuters"
+2018-11-05 20:19:05,635:INFO:topic #77 (0.003): 0.115*"the" + 0.058*"Tropical" + 0.058*"eye" + 0.058*"remnants" + 0.058*"on" + 0.058*"Keeping" + 0.058*"close" + 0.058*"UPDATE" + 0.058*"TROPICS" + 0.058*"Let"
+2018-11-05 20:19:05,637:INFO:topic #55 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,638:INFO:topic #183 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,640:INFO:topic #85 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,642:INFO:topic #225 (0.003): 0.105*"the" + 0.058*"remnants" + 0.056*"to" + 0.056*"models" + 0.054*"shown" + 0.054*"have" + 0.053*"GFS" + 0.053*"RT" + 0.051*"watching" + 0.051*"continues"
+2018-11-05 20:19:05,643:INFO:topic #290 (0.003): 0.054*"over" + 0.054*"possible" + 0.054*"and" + 0.054*"days" + 0.054*"heavy" + 0.054*"Extremely" + 0.054*"remnants" + 0.054*"precip" + 0.054*"AGwx" + 0.054*"potential"
+2018-11-05 20:19:05,645:INFO:topic #159 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,646:INFO:topic #10 (0.003): 0.124*"the" + 0.062*"Tropical" + 0.060*"talk" + 0.059*"details" + 0.059*"TROPICS" + 0.059*"eye" + 0.058*"Let" + 0.058*"of" + 0.057*"remnants" + 0.057*"Storm"
+2018-11-05 20:19:05,647:INFO:topic #117 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,648:INFO:topic #72 (0.003): 0.115*"the" + 0.058*"UPDATE" + 0.058*"very" + 0.058*"of" + 0.058*"talk" + 0.058*"close" + 0.058*"Keeping" + 0.058*"Let" + 0.058*"on" + 0.058*"eye"
+2018-11-05 20:19:05,650:INFO:topic #241 (0.003): 0.096*"the" + 0.067*"very" + 0.063*"UPDATE" + 0.062*"Keeping" + 0.061*"Harvey" + 0.059*"on" + 0.059*"close" + 0.059*"Storm" + 0.058*"remnants" + 0.058*"of"
+2018-11-05 20:19:05,651:INFO:topic #142 (0.003): 0.062*"the" + 0.058*"monitor" + 0.057*"more" + 0.056*"tra" + 0.055*"indicating" + 0.053*"RT" + 0.052*"northwesterly" + 0.051*"Harvey" + 0.051*"definitely" + 0.051*"over"
+2018-11-05 20:19:05,652:INFO:topic #143 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,673:INFO:topic #55 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,674:INFO:topic #290 (0.003): 0.054*"over" + 0.054*"possible" + 0.054*"and" + 0.054*"days" + 0.054*"heavy" + 0.054*"Extremely" + 0.054*"remnants" + 0.054*"precip" + 0.054*"AGwx" + 0.054*"potential"
+2018-11-05 20:19:05,675:INFO:topic #71 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,677:INFO:topic #52 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,678:INFO:topic #240 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,679:INFO:topic #72 (0.003): 0.115*"the" + 0.058*"UPDATE" + 0.058*"very" + 0.058*"of" + 0.058*"talk" + 0.058*"close" + 0.058*"Keeping" + 0.058*"Let" + 0.058*"on" + 0.058*"eye"
+2018-11-05 20:19:05,680:INFO:topic #238 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,682:INFO:topic #272 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,683:INFO:topic #206 (0.003): 0.079*"the" + 0.057*"remnants" + 0.057*"Harvey" + 0.034*"Extremely" + 0.034*"RT" + 0.034*"AGwx" + 0.034*"precip" + 0.034*"days" + 0.034*"so" + 0.034*"heavy"
+2018-11-05 20:19:05,684:INFO:topic #90 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,685:INFO:topic #241 (0.003): 0.096*"the" + 0.067*"very" + 0.063*"UPDATE" + 0.062*"Keeping" + 0.061*"Harvey" + 0.059*"on" + 0.059*"close" + 0.059*"Storm" + 0.058*"remnants" + 0.058*"of"
+2018-11-05 20:19:05,687:INFO:topic #6 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,688:INFO:topic #47 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,689:INFO:topic #176 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,690:INFO:topic #173 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,691:INFO:topic #44 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,693:INFO:topic #248 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,697:INFO:topic #82 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,704:INFO:topic #197 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,707:INFO:topic #59 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:05,738:INFO:saving LdaState object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state, separately None
+2018-11-05 20:19:05,741:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state
+2018-11-05 20:19:05,744:INFO:saving LdaMulticore object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model, separately ['expElogbeta', 'sstats']
+2018-11-05 20:19:05,746:INFO:storing np array 'expElogbeta' to /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.expElogbeta.npy
+2018-11-05 20:19:05,945:INFO:not storing attribute state
+2018-11-05 20:19:05,946:INFO:not storing attribute dispatcher
+2018-11-05 20:19:05,948:INFO:not storing attribute id2word
+2018-11-05 20:19:05,950:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model
+2018-11-05 20:19:06,192:INFO:-8.195 per-word bound, 293.1 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 20:19:09,503:INFO:using ParallelWordOccurrenceAccumulator(processes=3, batch_size=64) to estimate probabilities from sliding windows
+2018-11-05 20:19:09,639:INFO:serializing accumulator to return to master...
+2018-11-05 20:19:09,642:INFO:accumulator serialized
+2018-11-05 20:19:09,648:INFO:serializing accumulator to return to master...
+2018-11-05 20:19:09,651:INFO:accumulator serialized
+2018-11-05 20:19:09,659:INFO:serializing accumulator to return to master...
+2018-11-05 20:19:09,675:INFO:accumulator serialized
+2018-11-05 20:19:09,692:INFO:3 accumulators retrieved from output queue
+2018-11-05 20:19:09,892:INFO:accumulated word occurrence stats for 0 virtual documents
+2018-11-05 20:19:28,397:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-11-05 20:19:28,398:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-11-05 20:19:28,398:INFO:accepted corpus with 124 documents, 123 features, 2014 non-zero entries
+2018-11-05 20:19:28,398:INFO:loading Dictionary object from Result/disasterTweets.dict
+2018-11-05 20:19:28,398:INFO:loaded Result/disasterTweets.dict
+2018-11-05 20:19:28,401:INFO:using symmetric alpha at 0.0033333333333333335
+2018-11-05 20:19:28,401:INFO:using symmetric eta at 0.0033333333333333335
+2018-11-05 20:19:28,401:INFO:using serial LDA version on this node
+2018-11-05 20:19:28,406:INFO:running online LDA training, 300 topics, 1 passes over the supplied corpus of 124 documents, updating every 255000 documents, evaluating every ~124 documents, iterating 50x with a convergence threshold of 0.001000
+2018-11-05 20:19:28,406:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2018-11-05 20:19:28,412:INFO:training LDA model using 3 processes
+2018-11-05 20:19:28,434:INFO:PROGRESS: pass 0, dispatched chunk #0 = documents up to #124/124, outstanding queue size 1
+2018-11-05 20:19:28,690:INFO:topic #15 (0.003): 0.078*"days" + 0.076*"Extremely" + 0.065*"possible" + 0.064*"remnants" + 0.062*"heavy" + 0.061*"the" + 0.060*"so" + 0.060*"over" + 0.059*"another" + 0.057*"Harvey"
+2018-11-05 20:19:28,692:INFO:topic #128 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:28,693:INFO:topic #30 (0.003): 0.061*"Extremely" + 0.058*"Harvey" + 0.058*"RT" + 0.057*"next" + 0.057*"the" + 0.055*"over" + 0.055*"precip" + 0.055*"or" + 0.055*"so" + 0.055*"days"
+2018-11-05 20:19:28,695:INFO:topic #178 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:28,696:INFO:topic #285 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:28,697:INFO:topic diff=277.567322, rho=1.000000
+2018-11-05 20:19:28,968:INFO:-8.264 per-word bound, 307.3 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 20:19:29,064:INFO:topic #65 (0.003): 0.115*"the" + 0.058*"Harvey" + 0.058*"Storm" + 0.058*"very" + 0.058*"eye" + 0.058*"Keeping" + 0.058*"close" + 0.058*"TROPICS" + 0.058*"on" + 0.058*"Let"
+2018-11-05 20:19:29,066:INFO:topic #74 (0.003): 0.101*"Texas" + 0.066*"Harvey" + 0.064*"the" + 0.062*"RT" + 0.051*"models" + 0.051*"indicating" + 0.051*"stronger" + 0.051*"south" + 0.051*"possibility" + 0.051*"in"
+2018-11-05 20:19:29,067:INFO:topic #73 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,068:INFO:topic #56 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,069:INFO:topic #251 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,071:INFO:topic #45 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,072:INFO:topic #154 (0.003): 0.057*"indicating" + 0.056*"days" + 0.056*"Texas" + 0.055*"as" + 0.054*"needs" + 0.054*"over" + 0.054*"to" + 0.054*"South" + 0.052*"models" + 0.051*"monitor"
+2018-11-05 20:19:29,073:INFO:topic #191 (0.003): 0.054*"possible" + 0.054*"and" + 0.054*"days" + 0.054*"heavy" + 0.054*"over" + 0.054*"Extremely" + 0.054*"remnants" + 0.054*"precip" + 0.054*"AGwx" + 0.054*"potential"
+2018-11-05 20:19:29,074:INFO:topic #296 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,075:INFO:topic #206 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,077:INFO:topic #223 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,078:INFO:topic #126 (0.003): 0.064*"ex" + 0.061*"tra" + 0.060*"the" + 0.060*"more" + 0.058*"RT" + 0.054*"Harvey" + 0.052*"definitely" + 0.052*"next" + 0.051*"northwesterly" + 0.049*"monitor"
+2018-11-05 20:19:29,079:INFO:topic #157 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,080:INFO:topic #187 (0.003): 0.062*"RT" + 0.060*"the" + 0.060*"AGwx" + 0.055*"Harvey" + 0.055*"potential" + 0.054*"so" + 0.054*"or" + 0.052*"next" + 0.052*"over" + 0.052*"precip"
+2018-11-05 20:19:29,081:INFO:topic #134 (0.003): 0.061*"Extremely" + 0.060*"or" + 0.059*"over" + 0.057*"system" + 0.056*"and" + 0.055*"next" + 0.055*"so" + 0.054*"possible" + 0.054*"RT" + 0.053*"days"
+2018-11-05 20:19:29,082:INFO:topic #259 (0.003): 0.060*"the" + 0.060*"Texas" + 0.060*"RT" + 0.060*"Harvey" + 0.030*"so" + 0.030*"and" + 0.030*"heavy" + 0.030*"another" + 0.030*"of" + 0.030*"days"
+2018-11-05 20:19:29,084:INFO:topic #83 (0.003): 0.089*"the" + 0.067*"time" + 0.062*"Alright" + 0.059*"of" + 0.055*"really" + 0.055*"Harvey" + 0.053*"RT" + 0.052*"shown" + 0.052*"trend" + 0.052*"models"
+2018-11-05 20:19:29,085:INFO:topic #149 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,086:INFO:topic #94 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,088:INFO:topic #4 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,104:INFO:topic #41 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,105:INFO:topic #53 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,107:INFO:topic #26 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,108:INFO:topic #273 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,109:INFO:topic #21 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,111:INFO:topic #1 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,112:INFO:topic #249 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,113:INFO:topic #192 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,115:INFO:topic #60 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,116:INFO:topic #109 (0.003): 0.149*"Barbados" + 0.075*"Stranded" + 0.075*"RT" + 0.075*"in" + 0.075*"Today" + 0.075*"Tropical" + 0.075*"Storm" + 0.075*"Leaves" + 0.075*"Harvey" + 0.075*"Commuters"
+2018-11-05 20:19:29,117:INFO:topic #173 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,118:INFO:topic #58 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,119:INFO:topic #90 (0.003): 0.115*"the" + 0.058*"details" + 0.058*"on" + 0.058*"Keeping" + 0.058*"eye" + 0.058*"close" + 0.058*"UPDATE" + 0.058*"TROPICS" + 0.058*"Tropical" + 0.058*"very"
+2018-11-05 20:19:29,121:INFO:topic #252 (0.003): 0.054*"next" + 0.054*"mid" + 0.054*"to" + 0.054*"week" + 0.054*"threat" + 0.054*"rain" + 0.054*"Caribbean" + 0.054*"early" + 0.054*"Central" + 0.054*"entered"
+2018-11-05 20:19:29,122:INFO:topic #220 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,123:INFO:topic #94 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,124:INFO:topic #177 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,125:INFO:topic #144 (0.003): 0.054*"system" + 0.054*"and" + 0.054*"days" + 0.054*"heavy" + 0.054*"over" + 0.054*"Extremely" + 0.054*"possible" + 0.054*"precip" + 0.054*"potential" + 0.054*"remnants"
+2018-11-05 20:19:29,127:INFO:topic #27 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:19:29,128:INFO:topic #151 (0.003): 0.088*"CMC" + 0.088*"along" + 0.088*"intensity" + 0.088*"experimental" + 0.088*"ensemble" + 0.088*"and" + 0.088*"UKMO" + 0.088*"GFS" + 0.088*"Data" + 0.088*"track"
+2018-11-05 20:19:29,145:INFO:saving LdaState object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state, separately None
+2018-11-05 20:19:29,148:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state
+2018-11-05 20:19:29,151:INFO:saving LdaMulticore object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model, separately ['expElogbeta', 'sstats']
+2018-11-05 20:19:29,152:INFO:storing np array 'expElogbeta' to /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.expElogbeta.npy
+2018-11-05 20:19:29,274:INFO:not storing attribute dispatcher
+2018-11-05 20:19:29,275:INFO:not storing attribute id2word
+2018-11-05 20:19:29,276:INFO:not storing attribute state
+2018-11-05 20:19:29,278:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model
+2018-11-05 20:19:29,574:INFO:-8.261 per-word bound, 306.8 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 20:22:25,714:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-11-05 20:22:25,716:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-11-05 20:22:25,721:INFO:accepted corpus with 124 documents, 123 features, 2014 non-zero entries
+2018-11-05 20:22:25,722:INFO:loading Dictionary object from Result/disasterTweets.dict
+2018-11-05 20:22:25,723:INFO:loaded Result/disasterTweets.dict
+2018-11-05 20:22:25,724:INFO:using symmetric alpha at 0.0033333333333333335
+2018-11-05 20:22:25,724:INFO:using symmetric eta at 0.0033333333333333335
+2018-11-05 20:22:25,724:INFO:using serial LDA version on this node
+2018-11-05 20:22:25,736:INFO:running online LDA training, 300 topics, 1 passes over the supplied corpus of 124 documents, updating every 255000 documents, evaluating every ~124 documents, iterating 50x with a convergence threshold of 0.001000
+2018-11-05 20:22:25,736:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2018-11-05 20:22:25,752:INFO:training LDA model using 3 processes
+2018-11-05 20:22:25,794:INFO:PROGRESS: pass 0, dispatched chunk #0 = documents up to #124/124, outstanding queue size 1
+2018-11-05 20:22:26,084:INFO:topic #148 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,085:INFO:topic #159 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,087:INFO:topic #76 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,088:INFO:topic #52 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,089:INFO:topic #17 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,090:INFO:topic diff=278.892365, rho=1.000000
+2018-11-05 20:22:26,335:INFO:-8.060 per-word bound, 267.0 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 20:22:26,418:INFO:topic #193 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,420:INFO:topic #257 (0.003): 0.067*"heavy" + 0.065*"so" + 0.062*"RT" + 0.060*"AGwx" + 0.058*"remnants" + 0.058*"the" + 0.057*"days" + 0.054*"Extremely" + 0.054*"over" + 0.051*"potential"
+2018-11-05 20:22:26,421:INFO:topic #210 (0.003): 0.130*"Texas" + 0.065*"stronger" + 0.065*"of" + 0.065*"the" + 0.065*"in" + 0.065*"models" + 0.065*"especially" + 0.065*"RT" + 0.065*"Harvey" + 0.065*"possibility"
+2018-11-05 20:22:26,423:INFO:topic #297 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,424:INFO:topic #243 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,425:INFO:topic #244 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,427:INFO:topic #99 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,428:INFO:topic #237 (0.003): 0.062*"over" + 0.060*"so" + 0.060*"AGwx" + 0.058*"RT" + 0.058*"another" + 0.057*"possible" + 0.057*"days" + 0.055*"Extremely" + 0.054*"system" + 0.054*"heavy"
+2018-11-05 20:22:26,430:INFO:topic #7 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,431:INFO:topic #120 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,433:INFO:topic #156 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,434:INFO:topic #80 (0.003): 0.149*"Barbados" + 0.075*"RT" + 0.075*"in" + 0.075*"Today" + 0.075*"Stranded" + 0.075*"Tropical" + 0.075*"Storm" + 0.075*"Leaves" + 0.075*"Harvey" + 0.075*"Commuters"
+2018-11-05 20:22:26,436:INFO:topic #147 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,437:INFO:topic #169 (0.003): 0.116*"Texas" + 0.075*"play" + 0.073*"in" + 0.072*"south" + 0.072*"of" + 0.070*"is" + 0.069*"Harvey" + 0.064*"especially" + 0.064*"possibility" + 0.062*"RT"
+2018-11-05 20:22:26,439:INFO:topic #51 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,440:INFO:topic #268 (0.003): 0.132*"Texas" + 0.071*"play" + 0.070*"the" + 0.070*"stronger" + 0.066*"models" + 0.065*"RT" + 0.064*"Harvey" + 0.063*"especially" + 0.062*"is" + 0.062*"in"
+2018-11-05 20:22:26,441:INFO:topic #194 (0.003): 0.117*"the" + 0.068*"Tropical" + 0.065*"Keeping" + 0.064*"close" + 0.061*"TROPICS" + 0.059*"UPDATE" + 0.058*"on" + 0.057*"Harvey" + 0.051*"talk" + 0.051*"remnants"
+2018-11-05 20:22:26,443:INFO:topic #30 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,444:INFO:topic #241 (0.003): 0.064*"heavy" + 0.061*"over" + 0.060*"or" + 0.058*"so" + 0.058*"RT" + 0.057*"and" + 0.057*"remnants" + 0.055*"another" + 0.052*"system" + 0.052*"Harvey"
+2018-11-05 20:22:26,445:INFO:topic #232 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,464:INFO:topic #270 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,465:INFO:topic #250 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,466:INFO:topic #143 (0.003): 0.067*"the" + 0.058*"remnants" + 0.055*"Harvey" + 0.043*"potential" + 0.043*"over" + 0.043*"RT" + 0.043*"another" + 0.043*"Extremely" + 0.043*"heavy" + 0.043*"or"
+2018-11-05 20:22:26,468:INFO:topic #201 (0.003): 0.061*"precip" + 0.061*"and" + 0.061*"Extremely" + 0.061*"potential" + 0.061*"possible" + 0.061*"over" + 0.061*"or" + 0.061*"system" + 0.061*"days" + 0.061*"another"
+2018-11-05 20:22:26,469:INFO:topic #273 (0.003): 0.115*"the" + 0.058*"of" + 0.058*"Tropical" + 0.058*"on" + 0.058*"Keeping" + 0.058*"eye" + 0.058*"close" + 0.058*"UPDATE" + 0.058*"TROPICS" + 0.058*"Let"
+2018-11-05 20:22:26,470:INFO:topic #228 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,471:INFO:topic #218 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,473:INFO:topic #48 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,475:INFO:topic #76 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,476:INFO:topic #73 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,478:INFO:topic #154 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,479:INFO:topic #208 (0.003): 0.054*"days" + 0.054*"over" + 0.054*"possible" + 0.054*"and" + 0.054*"heavy" + 0.054*"Extremely" + 0.054*"remnants" + 0.054*"precip" + 0.054*"AGwx" + 0.054*"potential"
+2018-11-05 20:22:26,480:INFO:topic #58 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,482:INFO:topic #79 (0.003): 0.054*"possible" + 0.054*"and" + 0.054*"days" + 0.054*"heavy" + 0.054*"over" + 0.054*"Extremely" + 0.054*"remnants" + 0.054*"precip" + 0.054*"AGwx" + 0.054*"potential"
+2018-11-05 20:22:26,483:INFO:topic #148 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,484:INFO:topic #274 (0.003): 0.115*"the" + 0.058*"TROPICS" + 0.058*"Tropical" + 0.058*"on" + 0.058*"Keeping" + 0.058*"eye" + 0.058*"close" + 0.058*"UPDATE" + 0.058*"Let" + 0.058*"very"
+2018-11-05 20:22:26,486:INFO:topic #180 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,487:INFO:topic #172 (0.003): 0.149*"Barbados" + 0.075*"Damage" + 0.075*"Tropical" + 0.075*"in" + 0.075*"Today" + 0.075*"Stranded" + 0.075*"Storm" + 0.075*"RT" + 0.075*"Leaves" + 0.075*"Commuters"
+2018-11-05 20:22:26,488:INFO:topic #211 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,490:INFO:topic #116 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:22:26,510:INFO:saving LdaState object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state, separately None
+2018-11-05 20:22:26,514:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state
+2018-11-05 20:22:26,516:INFO:saving LdaMulticore object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model, separately ['expElogbeta', 'sstats']
+2018-11-05 20:22:26,518:INFO:storing np array 'expElogbeta' to /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.expElogbeta.npy
+2018-11-05 20:22:26,646:INFO:not storing attribute dispatcher
+2018-11-05 20:22:26,647:INFO:not storing attribute state
+2018-11-05 20:22:26,648:INFO:not storing attribute id2word
+2018-11-05 20:22:26,650:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model
+2018-11-05 20:22:26,917:INFO:-8.067 per-word bound, 268.1 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 20:22:32,762:INFO:using ParallelWordOccurrenceAccumulator(processes=3, batch_size=64) to estimate probabilities from sliding windows
+2018-11-05 20:22:34,827:INFO:serializing accumulator to return to master...
+2018-11-05 20:22:34,826:INFO:serializing accumulator to return to master...
+2018-11-05 20:22:34,832:INFO:accumulator serialized
+2018-11-05 20:22:34,832:INFO:accumulator serialized
+2018-11-05 20:22:35,099:INFO:serializing accumulator to return to master...
+2018-11-05 20:22:35,103:INFO:accumulator serialized
+2018-11-05 20:22:35,119:INFO:3 accumulators retrieved from output queue
+2018-11-05 20:22:35,279:INFO:accumulated word occurrence stats for 122 virtual documents
+2018-11-05 20:23:04,356:INFO:topic #283 (0.003): 0.115*"the" + 0.058*"Tropical" + 0.058*"on" + 0.058*"Keeping" + 0.058*"eye" + 0.058*"close" + 0.058*"UPDATE" + 0.058*"TROPICS" + 0.058*"Let" + 0.058*"very"
+2018-11-05 20:23:04,360:INFO:topic #100 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:23:04,360:INFO:topic #212 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:23:04,361:INFO:topic #274 (0.003): 0.115*"the" + 0.058*"TROPICS" + 0.058*"Tropical" + 0.058*"on" + 0.058*"Keeping" + 0.058*"eye" + 0.058*"close" + 0.058*"UPDATE" + 0.058*"Let" + 0.058*"very"
+2018-11-05 20:23:04,362:INFO:topic #131 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:23:04,362:INFO:topic #115 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:23:04,364:INFO:topic #194 (0.003): 0.117*"the" + 0.068*"Tropical" + 0.065*"Keeping" + 0.064*"close" + 0.061*"TROPICS" + 0.059*"UPDATE" + 0.058*"on" + 0.057*"Harvey" + 0.051*"talk" + 0.051*"remnants"
+2018-11-05 20:23:04,365:INFO:topic #210 (0.003): 0.130*"Texas" + 0.065*"stronger" + 0.065*"of" + 0.065*"the" + 0.065*"in" + 0.065*"models" + 0.065*"especially" + 0.065*"RT" + 0.065*"Harvey" + 0.065*"possibility"
+2018-11-05 20:23:04,366:INFO:topic #49 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:23:04,368:INFO:topic #62 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:23:04,368:INFO:topic #255 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:23:04,370:INFO:topic #278 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:23:04,371:INFO:topic #81 (0.003): 0.115*"the" + 0.058*"very" + 0.058*"Let" + 0.058*"Tropical" + 0.058*"on" + 0.058*"Keeping" + 0.058*"eye" + 0.058*"close" + 0.058*"UPDATE" + 0.058*"TROPICS"
+2018-11-05 20:23:04,372:INFO:topic #118 (0.003): 0.116*"Texas" + 0.081*"of" + 0.071*"models" + 0.071*"Harvey" + 0.066*"the" + 0.066*"play" + 0.065*"RT" + 0.063*"especially" + 0.062*"south" + 0.062*"indicating"
+2018-11-05 20:23:04,372:INFO:topic #284 (0.003): 0.055*"potential" + 0.055*"over" + 0.055*"and" + 0.055*"days" + 0.055*"heavy" + 0.055*"Extremely" + 0.055*"possible" + 0.055*"precip" + 0.055*"AGwx" + 0.055*"remnants"
+2018-11-05 20:23:04,373:INFO:topic #227 (0.003): 0.061*"next" + 0.061*"Harvey" + 0.061*"possible" + 0.061*"system" + 0.061*"or" + 0.061*"another" + 0.061*"over" + 0.061*"and" + 0.061*"precip" + 0.061*"potential"
+2018-11-05 20:23:04,374:INFO:topic #93 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:23:04,374:INFO:topic #44 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:23:04,375:INFO:topic #209 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:23:04,376:INFO:topic #297 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:16,968:INFO:loaded corpus index from Result/disasterTweets.mm.index
+2018-11-05 20:25:16,969:INFO:initializing cython corpus reader from Result/disasterTweets.mm
+2018-11-05 20:25:16,975:INFO:accepted corpus with 124 documents, 123 features, 2014 non-zero entries
+2018-11-05 20:25:16,976:INFO:loading Dictionary object from Result/disasterTweets.dict
+2018-11-05 20:25:16,976:INFO:loaded Result/disasterTweets.dict
+2018-11-05 20:25:37,413:INFO:using symmetric alpha at 0.0033333333333333335
+2018-11-05 20:25:37,413:INFO:using symmetric eta at 0.0033333333333333335
+2018-11-05 20:25:37,414:INFO:using serial LDA version on this node
+2018-11-05 20:25:37,424:INFO:running online LDA training, 300 topics, 1 passes over the supplied corpus of 124 documents, updating every 255000 documents, evaluating every ~124 documents, iterating 50x with a convergence threshold of 0.001000
+2018-11-05 20:25:37,424:WARNING:too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2018-11-05 20:25:37,437:INFO:training LDA model using 3 processes
+2018-11-05 20:25:37,479:INFO:PROGRESS: pass 0, dispatched chunk #0 = documents up to #124/124, outstanding queue size 1
+2018-11-05 20:25:37,808:INFO:topic #147 (0.003): 0.074*"the" + 0.064*"time" + 0.063*"Harvey" + 0.059*"GFS" + 0.059*"start" + 0.055*"closely" + 0.054*"RT" + 0.053*"Alright" + 0.053*"of" + 0.052*"shown"
+2018-11-05 20:25:37,810:INFO:topic #91 (0.003): 0.062*"RT" + 0.062*"Barbados" + 0.062*"Harvey" + 0.031*"Commuters" + 0.031*"Storm" + 0.031*"monitor" + 0.031*"ex" + 0.031*"Texas" + 0.031*"models" + 0.031*"indicating"
+2018-11-05 20:25:37,811:INFO:topic #73 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:37,812:INFO:topic #293 (0.003): 0.055*"system" + 0.055*"Extremely" + 0.055*"days" + 0.055*"heavy" + 0.055*"over" + 0.055*"and" + 0.055*"possible" + 0.055*"precip" + 0.055*"potential" + 0.055*"remnants"
+2018-11-05 20:25:37,814:INFO:topic #46 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:37,815:INFO:topic diff=277.573639, rho=1.000000
+2018-11-05 20:25:38,073:INFO:-8.366 per-word bound, 330.0 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
+2018-11-05 20:25:38,085:INFO:topic #122 (0.003): 0.126*"Texas" + 0.071*"play" + 0.071*"in" + 0.068*"stronger" + 0.067*"indicating" + 0.066*"models" + 0.065*"is" + 0.064*"especially" + 0.064*"of" + 0.063*"RT"
+2018-11-05 20:25:38,086:INFO:topic #271 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,087:INFO:topic #179 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,088:INFO:topic #186 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,090:INFO:topic #69 (0.003): 0.058*"heavy" + 0.058*"so" + 0.057*"and" + 0.057*"days" + 0.057*"the" + 0.056*"remnants" + 0.056*"potential" + 0.056*"next" + 0.055*"over" + 0.055*"system"
+2018-11-05 20:25:38,091:INFO:topic #280 (0.003): 0.149*"Barbados" + 0.075*"Photo" + 0.075*"in" + 0.075*"Today" + 0.075*"Stranded" + 0.075*"Tropical" + 0.075*"Storm" + 0.075*"RT" + 0.075*"Commuters" + 0.075*"Leaves"
+2018-11-05 20:25:38,092:INFO:topic #198 (0.003): 0.115*"the" + 0.071*"very" + 0.071*"UPDATE" + 0.070*"details" + 0.066*"Keeping" + 0.063*"Let" + 0.061*"Storm" + 0.055*"Tropical" + 0.051*"remnants" + 0.050*"eye"
+2018-11-05 20:25:38,093:INFO:topic #175 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,094:INFO:topic #291 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,095:INFO:topic #248 (0.003): 0.061*"Extremely" + 0.061*"remnants" + 0.061*"potential" + 0.061*"and" + 0.061*"possible" + 0.061*"over" + 0.061*"or" + 0.061*"system" + 0.061*"days" + 0.061*"another"
+2018-11-05 20:25:38,097:INFO:topic #135 (0.003): 0.060*"precip" + 0.059*"heavy" + 0.058*"possible" + 0.058*"potential" + 0.056*"or" + 0.056*"remnants" + 0.055*"Harvey" + 0.055*"AGwx" + 0.054*"system" + 0.054*"the"
+2018-11-05 20:25:38,098:INFO:topic #222 (0.003): 0.094*"Texas" + 0.081*"the" + 0.061*"RT" + 0.061*"Harvey" + 0.059*"of" + 0.047*"stronger" + 0.047*"models" + 0.047*"in" + 0.047*"indicating" + 0.047*"especially"
+2018-11-05 20:25:38,099:INFO:topic #236 (0.003): 0.058*"so" + 0.058*"days" + 0.057*"Harvey" + 0.056*"Extremely" + 0.056*"heavy" + 0.056*"over" + 0.055*"RT" + 0.055*"possible" + 0.055*"AGwx" + 0.055*"and"
+2018-11-05 20:25:38,100:INFO:topic #98 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,101:INFO:topic #28 (0.003): 0.103*"the" + 0.052*"continues" + 0.052*"have" + 0.052*"really" + 0.052*"Alright" + 0.052*"closely" + 0.052*"of" + 0.052*"GFS" + 0.052*"models" + 0.052*"time"
+2018-11-05 20:25:38,104:INFO:topic #246 (0.003): 0.054*"next" + 0.054*"so" + 0.054*"and" + 0.054*"heavy" + 0.054*"over" + 0.054*"possible" + 0.054*"another" + 0.054*"remnants" + 0.054*"precip" + 0.054*"AGwx"
+2018-11-05 20:25:38,106:INFO:topic #57 (0.003): 0.113*"the" + 0.072*"Storm" + 0.061*"details" + 0.061*"of" + 0.059*"Tropical" + 0.059*"on" + 0.057*"eye" + 0.053*"Let" + 0.052*"very" + 0.050*"close"
+2018-11-05 20:25:38,108:INFO:topic #184 (0.003): 0.054*"AGwx" + 0.054*"heavy" + 0.054*"and" + 0.054*"days" + 0.054*"over" + 0.054*"Extremely" + 0.054*"possible" + 0.054*"precip" + 0.054*"potential" + 0.054*"remnants"
+2018-11-05 20:25:38,109:INFO:topic #55 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,110:INFO:topic #3 (0.003): 0.058*"precip" + 0.058*"Extremely" + 0.058*"and" + 0.058*"days" + 0.058*"another" + 0.058*"or" + 0.058*"possible" + 0.058*"over" + 0.058*"potential" + 0.058*"Harvey"
+2018-11-05 20:25:38,131:INFO:topic #156 (0.003): 0.129*"the" + 0.062*"remnants" + 0.057*"really" + 0.054*"trend" + 0.054*"watching" + 0.053*"continues" + 0.053*"models" + 0.051*"have" + 0.051*"to" + 0.049*"shown"
+2018-11-05 20:25:38,132:INFO:topic #231 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,135:INFO:topic #248 (0.003): 0.061*"Extremely" + 0.061*"remnants" + 0.061*"potential" + 0.061*"and" + 0.061*"possible" + 0.061*"over" + 0.061*"or" + 0.061*"system" + 0.061*"days" + 0.061*"another"
+2018-11-05 20:25:38,138:INFO:topic #114 (0.003): 0.113*"the" + 0.062*"on" + 0.060*"eye" + 0.060*"TROPICS" + 0.059*"Keeping" + 0.059*"Let" + 0.059*"very" + 0.059*"of" + 0.058*"talk" + 0.058*"Harvey"
+2018-11-05 20:25:38,141:INFO:topic #276 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,142:INFO:topic #208 (0.003): 0.116*"the" + 0.058*"very" + 0.058*"UPDATE" + 0.058*"talk" + 0.058*"eye" + 0.058*"Storm" + 0.058*"details" + 0.058*"close" + 0.058*"Harvey" + 0.058*"on"
+2018-11-05 20:25:38,143:INFO:topic #207 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,144:INFO:topic #53 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,145:INFO:topic #293 (0.003): 0.055*"system" + 0.055*"Extremely" + 0.055*"days" + 0.055*"heavy" + 0.055*"over" + 0.055*"and" + 0.055*"possible" + 0.055*"precip" + 0.055*"potential" + 0.055*"remnants"
+2018-11-05 20:25:38,147:INFO:topic #259 (0.003): 0.065*"another" + 0.062*"and" + 0.060*"so" + 0.058*"days" + 0.058*"precip" + 0.058*"next" + 0.057*"possible" + 0.056*"Harvey" + 0.054*"system" + 0.053*"RT"
+2018-11-05 20:25:38,148:INFO:topic #252 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,149:INFO:topic #169 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,150:INFO:topic #38 (0.003): 0.057*"RT" + 0.056*"next" + 0.055*"Harvey" + 0.054*"over" + 0.053*"the" + 0.053*"days" + 0.042*"remnants" + 0.042*"system" + 0.042*"Extremely" + 0.042*"heavy"
+2018-11-05 20:25:38,151:INFO:topic #166 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,153:INFO:topic #20 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,154:INFO:topic #181 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,155:INFO:topic #104 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,156:INFO:topic #83 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,158:INFO:topic #47 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,159:INFO:topic #139 (0.003): 0.008*"system" + 0.008*"closely" + 0.008*"possible" + 0.008*"potential" + 0.008*"precip" + 0.008*"remnants" + 0.008*"or" + 0.008*"Alright" + 0.008*"really" + 0.008*"have"
+2018-11-05 20:25:38,179:INFO:saving LdaState object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state, separately None
+2018-11-05 20:25:38,182:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.state
+2018-11-05 20:25:38,185:INFO:saving LdaMulticore object under /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model, separately ['expElogbeta', 'sstats']
+2018-11-05 20:25:38,186:INFO:storing np array 'expElogbeta' to /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model.expElogbeta.npy
+2018-11-05 20:25:38,406:INFO:not storing attribute id2word
+2018-11-05 20:25:38,408:INFO:not storing attribute dispatcher
+2018-11-05 20:25:38,414:INFO:not storing attribute state
+2018-11-05 20:25:38,420:INFO:saved /Users/vira/PycharmProjects/TopicModeling/venv/lib/python3.7/site-packages/gensim/test/test_data/lda_model
+2018-11-05 20:25:38,768:INFO:-8.359 per-word bound, 328.3 perplexity estimate based on a held-out corpus of 124 documents with 2073 words
